@@ -5,13 +5,25 @@
 }
 
 /*-------------------------- Nav */
+ .nav-title {
+    border-right: 1px solid #122e3c;
+    padding: 10px, 15px;
+ }
 
+.nav-color {
+    background-color: #f5ad99;
+}
 
-
+.navi-text {
+    font-family: "Work Sans", sans-serif;
+}
 
 
 /*-------------------------- Header */
 
+.hero-landscape {
+    max-height: 75%;
+}
 
 
 
