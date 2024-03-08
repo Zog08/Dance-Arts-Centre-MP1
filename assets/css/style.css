@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     border: 0;
+    
 }
 
 /*-------------------------- Nav */
- .nav-title {
+ .navi-title {
     border-right: 1px solid #122e3c;
     padding: 10px, 15px;
  }
 
-.nav-color {
+.navi-color {
     background-color: #f5ad99;
 }
 
@@ -18,19 +19,82 @@
     font-family: "Work Sans", sans-serif;
 }
 
+.navbar-toggler {
+    border: none;
+}
 
 /*-------------------------- Header */
 
-.hero-landscape {
-    max-height: 75%;
+#hero-outer {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/hero-landscape.jpg');
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
 }
 
 
 
+.logo-text h1 {
+    margin-left:10%;
+    margin-top:10%;
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    color:#122e3c;
+}
+
+.enrol-button {
+    margin-left: 10%;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.5rem;
+    width: fit-content;
+    padding: 10px 15px;
+    background-color:#f5ad99;
+    color: #fdf8ef;
+    border-radius: 25px;
+    animation-name: spin;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+
+}
+
+@keyframes spin {
+    50% {transform: rotate(10deg);}
+    
+}
 
 /*-------------------------- Main */
 
+.main-body {
+    display:inline-flex;
+    background-color: #122e3c;
+    width:100%;
+    height: 100vh;
+    margin: 0;
 
+}
+
+
+.about-box {
+    background-color:#f3f3f3;
+    margin: 10px 10px;
+    width: 40%;
+    
+    
+}
 
 
 
