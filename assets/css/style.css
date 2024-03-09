@@ -5,10 +5,22 @@
     
 }
 
+
+
 /*-------------------------- Nav */
  .navi-title {
     border-right: 1px solid #122e3c;
     padding: 10px, 15px;
+ }
+
+ @media (max-width: 992px) {
+    .navi-title {
+        border-right: none;
+    }
+ }
+
+ .navi-title:last-child {
+    border-right: none;
  }
 
 .navi-color {
@@ -17,11 +29,15 @@
 
 .navi-text {
     font-family: "Work Sans", sans-serif;
+    letter-spacing: 2px;
 }
+
 
 .navbar-toggler {
     border: none;
 }
+
+
 
 /*-------------------------- Header */
 
@@ -37,21 +53,38 @@
     display: flex;
     flex-direction: column;
     background-image: url('../images/hero-landscape.jpg');
-    align-self: center;
+    align-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    width:100%;
 
 }
 
+@media (max-width: 500px) {
+    .hero-image {
+        background-image: url('../images/hero-portrait.jpg');
+        height: 80%;
+    }
+}
+
+.container-md {
+    margin: 0;
+    width: 100%;
+} 
 
 
-.logo-text h1 {
+
+.hero-logo-text h1 {
     margin-left:10%;
     margin-top:10%;
     font-family: "Anton", sans-serif;
     font-size: 3rem;
     color:#122e3c;
+}
+
+.logo-link {
+    text-decoration: none;
 }
 
 .enrol-button {
@@ -99,3 +132,85 @@
 
 
 /*-------------------------- Footer */
+
+#footer {
+    padding: 15px, 0;
+    background-color:#122e3c;
+}
+
+.footer-block {
+    padding: 15px 12px;
+}
+
+.footer-logo-text h2 {
+   
+    font-family: "Anton", sans-serif;
+    font-size: 200%;
+    color:#f5ad99;
+}
+
+.footer-sub {
+    color:#f5ad99;
+    font-family: "Work Sans", sans-serif;
+    font-size: 2rem;
+    Font-weight: 400;
+    letter-spacing: 2px ;
+    padding-top: 10px;
+}
+
+.social-networks {
+    text-align: center;
+    padding: 0;
+
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 4%;
+    padding: 10px 5px;
+    color:#f3f3f3;
+}
+
+.social-networks a {
+    text-decoration: none;
+}
+
+
+.social-networks li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    color: #f3f3f3;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-networks li a i:hover {
+    background-color: #f5ad99;
+}
+
+.address-text {
+    display: block;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    text-align: right;
+    color: #f5ad99;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.address-text h5 {
+    letter-spacing: 1.5px;
+}
