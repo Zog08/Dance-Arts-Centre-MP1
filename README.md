@@ -3,7 +3,13 @@
 
 Dance Arts Centre (DAC) is a site that hope to act as a positive reflection of a trustworthy and professional local dance school. It will enable new visitors to the site to enrol in classes via a contact form. Regular visitors can check the current timetable, find contact details and location, as well as updates. The client will be able to advertise the school and capture new visitor information via the sign up form.
 
+-- additions: 
+fonts: Google fonts, anton (logo text), Work Sans (main font)
+images: hero images - pixabay ; user, sobima https://pixabay.com/users/sobima-4218005/
+help adding mailto and tel to links elegantthemes.com
 
+
+BELOW THIS LINE IS TEMPLATE README FROM LOVE RUNNING ETC TO CHANGE AND ADD TO!!!!!!
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
