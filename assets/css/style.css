@@ -235,3 +235,24 @@ body {
 .address-text h5 {
     letter-spacing: 1.5px;
 }
+
+
+/* -------------------Timetable and classes page*/
+
+.timetable-button {
+    margin-left: 10%;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    width: fit-content;
+    padding: 10px 15px;
+    background-color:#f5ad99;
+    color: #fdf8ef;
+    border-radius: 25px;
+    animation-name: spin;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+
+}
+
