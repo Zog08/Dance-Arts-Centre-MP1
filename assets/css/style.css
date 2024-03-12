@@ -42,8 +42,8 @@ body {
 /*-------------------------- Header */
 
 #hero-outer {
-    height: 650px;
-    width: 90%;
+    height: 900px;
+    width: 100%;
     overflow: hidden;
     background-color: #f3f3f3;
     margin:0 auto;
@@ -53,15 +53,14 @@ body {
 .hero-image {
     display: flex;
     flex-direction: column;
-    background-image: url('../images/hero-landscape.jpg');
+    background-image: url('../images/Hero-image.jpg');
     align-content: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:0 50%;
+   
     background-attachment:scroll;
-    height: 700px;
-    padding-right: 15px;
-    padding-left: 15px;
+    height: 100%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 
