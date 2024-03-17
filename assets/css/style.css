@@ -7,7 +7,7 @@ body {
 
 
 
-/*-------------------------- Nav */
+/*---------------------------------------------------------------------------- Nav */
  .navi-title {
     border-right: 1px solid #122e3c;
     padding: 10px, 15px;
@@ -37,9 +37,13 @@ body {
     border: none;
 }
 
+/*altered bootstrap link click colour*/
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #f5ad99;
+}
 
 
-/*-------------------------- Header */
+/*---------------------------------------------------------------------------- Header */
 
 #hero-outer {
     height: 900px;
@@ -128,29 +132,25 @@ body {
     }
 }
 
-/*-------------------------- Main */
-
-.main-body {
-    display:inline-flex;
-    background-color: #122e3c;
-    width:100%;
-    height: 100vh;
-    margin: 0;
-
-}
+/*---------------------------------------------------------------------------- Main */
 
 
-.about-box {
+
+
+.about-us-box {
     background-color:#f3f3f3;
     margin: 10px 10px;
-    width: 40%;
     
     
 }
 
+.about-us-photo {
+    background-image: url('../images/studio.jpg');
+}
 
 
-/*-------------------------- Footer */
+
+/*---------------------------------------------------------------------------- Footer */
 
 #footer {
     padding: 15px, 0;
@@ -236,7 +236,7 @@ body {
 }
 
 
-/* -------------------Timetable and classes page*/
+/* ---------------------------------------------------------------------Timetable and classes page*/
 
 .timetable-button {
     margin-left: 10%;
