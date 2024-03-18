@@ -7,6 +7,8 @@ Dance Arts Centre (DAC) is a site that hope to act as a positive reflection of a
 fonts: Google fonts, anton (logo text), Work Sans (main font)
 images: hero images - pixabay ; user, sobima https://pixabay.com/users/sobima-4218005/
 help adding mailto and tel to links elegantthemes.com
+studio interior image: unsplash: user: Photo by <a href="https://unsplash.com/@tommykwak?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tommy Kwak</a> on <a href="https://unsplash.com/photos/white-ceiling-with-light-fixture-Ta3OhYMKCvA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 
 
 BELOW THIS LINE IS TEMPLATE README FROM LOVE RUNNING ETC TO CHANGE AND ADD TO!!!!!!
