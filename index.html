@@ -38,8 +38,8 @@
                 Home
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="index.html">About Us</a></li>
-                <li><a class="dropdown-item" href="#">Teachers</a></li>
+                <li><a class="dropdown-item" href="#about-us">About Us</a></li>
+                <li><a class="dropdown-item" href="#teachers">Teachers</a></li>
               </ul>
             </li>
 
@@ -49,8 +49,8 @@
                 Classes
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="classes.html">Timetable</a></li>
-                <li><a class="dropdown-item" href="#">Class Types</a></li>
+                <li><a class="dropdown-item" href="classes.html#timetable">Timetable</a></li>
+                <li><a class="dropdown-item" href="classes.html#classes">Class Types</a></li>
               </ul>
             </li>
 
@@ -97,10 +97,12 @@
 
   <!-- Main body of text -->
 
-  <section class="container-fluid">
+  <section class="container-fluid" id="about-us">
     <div class="row text-center justify-content-center">
-      <div class="col-8  about-us-text p-4">
-        <h3>About Us</h3>
+      <h3 class="col-10 about-us-title">About Us</h3> 
+    </div>
+    <div class="row text-center justify-content-center">
+      <div class="col-10  about-us-text"> 
         <h5><em>Welcome to Dance Arts Centre, where passion meets precision.</em></h5>
         <p>
           For over 15 years, we've been the beating heart of the local dance scene, nurturing talent and igniting
@@ -125,46 +127,57 @@
 
   </section>
 
-  <section>
-    <div class="row">
-      <div class="col-sm-4">
+  <section class="teachers" id="teachers">
+    <section class="container-fluid">
+      <div class="row text-center justify-content-center ">
+    <h3 class="col-10 teachers-title">Our Teachers</h3>
+  </div>
+    </section>
+
+    <div class="row g-2">
+      <div class="col-md-4">
         <div class="card">
           <img class="card-img-top" src="assets/images/teacher1.jpeg" alt="Image of Miss Veronica">
           <div class="card-body">
             <p class="card-text">
-              Miss Veronica (BA, ARAD, FISTD) is the principal of Dance Arts Centre. Veronica attended London Studio
-              Centre, before travelling the world performing on cruise ships. She has been teaching for over 20 years,
+              <strong>Miss Veronica</strong> (BA, ARAD, FISTD) is the principal and owner of Dance Arts Centre. Veronica attended London Studio
+              Centre, graduating in 2012 with a BA in Dance, before travelling the world performing as Dance Captain on cruise ships. She has been teaching for over 20 years,
               15 of them here at Dance Arts Centre.
             </p>
           </div>
         </div>
+      </div>
 
-        <div class="col-sm-4">
-          <div class="card">
-            <img class="card-img-top" src="assets/images/teacher2.jpeg" alt="Image of Miss Paulina">
-            <div class="card-body">
-              <p class="card-text">Miss Paulina attended Rambert, graduation with her BA in Dance Pedagogy. Paulina has
-                danced with Nederlands Dance Theater for 3 years, before working as a choreographer for PO cruise ships,
-                where she met Miss Veronica! She specialises in ballet technique here at Dance Arts Center. </p>
-            </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="assets/images/teacher2.jpeg" alt="Image of Miss Paulina">
+          <div class="card-body">
+            <p class="card-text">
+              <strong>Miss Paulina</strong>, our head of ballet, attended Rambert, where she graduated with her BA in Dance Pedagogy. Paulina has
+              danced with Nederlands Dance Theater for 3 years, before working as a choreographer for PO cruise ships,
+              where she met Miss Veronica! She specialises in ballet technique here at Dance Arts Center. </p>
           </div>
         </div>
+      </div>
 
-        <div class="col-sm-4">
-          <div class="card">
-            <img class="card-img-top" src="assets/images/teacher3.jpeg" alt="Image of Mr Arun">
-            <div class="card-body">
-              <p class="card-text">Mr Arun is our head of Acrodance and body conditioning here at Dance Arts Centre. Mr
-                Arun graduated from Bird College with a BA in Dance Education. Hs passion lies in strength and safe
-                dance practise. He won gold at the UK Acrodance championship in 2019, 2021 and 2022. </p>
-            </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="assets/images/teacher3.jpeg" alt="Image of Mr Arun">
+          <div class="card-body">
+            <p class="card-text">
+              <strong>Mr Arun</strong> is our head of Acrodance and body conditioning here at Dance Arts Centre. Mr
+              Arun graduated from Bird College with a first in Dance Education (BA). Hs passion lies in strength and body conditioning, and safe
+              dance practise. He won gold at the UK Acrodance championship in 2019, 2021 and 2022. </p>
           </div>
         </div>
       </div>
     </div>
+    </div>
   </section>
 
-  
+
+
+
 
   <!-- Footer for all pages -->
   <footer class="container-fluid">
