@@ -271,7 +271,8 @@ h3 {
     display: block;
     text-decoration: none;
     font-family: "Work Sans", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
+    letter-spacing: 1px;
     text-align: right;
     color: #f5ad99;
     font-weight: 400;
@@ -338,12 +339,32 @@ h3 {
     letter-spacing: 1.2px;
     font-size: 16px;
 
+
 }
 
+
 .studio-text h4 {
+    margin-top: 30px;
     margin-bottom: 12px;
     font-size: 26px;
     letter-spacing: 2px;
+}
+
+.studio-text-address {
+    margin-bottom: 30px;
+}
+
+.studio-text-address a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight:600;
+
+}
+
+
+.hire-section {
+    margin-top: 30px;
 }
 
 div.hire-list-container {
