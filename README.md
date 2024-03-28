@@ -9,6 +9,7 @@ images: hero images - pixabay ; user, sobima https://pixabay.com/users/sobima-42
 help adding mailto and tel to links elegantthemes.com
 studio interior image: unsplash: user: Photo by <a href="https://unsplash.com/@tommykwak?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tommy Kwak</a> on <a href="https://unsplash.com/photos/white-ceiling-with-light-fixture-Ta3OhYMKCvA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
+Code: Colt Steele / Udemy / Full Stack Web Dev Course (responsive layout, order changes on small screens on Studio page)
 
 
 BELOW THIS LINE IS TEMPLATE README FROM LOVE RUNNING ETC TO CHANGE AND ADD TO!!!!!!
