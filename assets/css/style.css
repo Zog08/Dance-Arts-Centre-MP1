@@ -352,7 +352,7 @@ h3 {
     color: #f3c6ba;
     letter-spacing: 1.2px;
     font-size: 16px;
-
+    letter-spacing: 1.2px;
 
 }
 
@@ -360,12 +360,13 @@ h3 {
 .studio-text h4 {
     margin-top: 30px;
     margin-bottom: 12px;
-    font-size: 26px;
+    font-size: 30px;
     letter-spacing: 2px;
 }
 
 .studio-text-address {
     margin-bottom: 30px;
+    font-weight: 100;
 }
 
 .studio-text-address a {
@@ -373,7 +374,27 @@ h3 {
     font-size: 18px;
     line-height: 22px;
     font-weight:600;
+    color:#f3f3f3;
 
+}
+
+.studio-text-address h5 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+
+.studio-text-address a{
+    
+    color: #f3f3f3;
+    transition: color .3s ease-in-out,  .3s ease-in-out;
+}
+
+.studio-text-address a:hover {
+    color: inset 100px 0 0 0 #f5ad99;
+    color: #f5ad99;
 }
 
 
