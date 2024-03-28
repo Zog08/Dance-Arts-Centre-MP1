@@ -44,8 +44,8 @@
                         </li>
 
                         <li class="nav-item dropdown navi-title">
-                            <a class="nav-link dropdown-toggle" href="classes.html" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="classes.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Classes
                             </a>
                             <ul class="dropdown-menu">
@@ -55,8 +55,8 @@
                         </li>
 
                         <li class="nav-item dropdown navi-title">
-                            <a class="nav-link dropdown-toggle" href="studio.html" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="studio.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Studio
                             </a>
                             <ul class="dropdown-menu">
@@ -66,8 +66,8 @@
                         </li>
 
                         <li class="nav-item dropdown navi-title">
-                            <a class="nav-link dropdown-toggle" href="contact.html" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="contact.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Contact
                             </a>
                             <ul class="dropdown-menu">
@@ -82,25 +82,70 @@
 
         <!-- CLASSES - MAIN CONTENTS-->
 
-        <section>
-            <h2>Location</h2>
-            <p>Here are our location details and an embedded google map</p>
-            <p>
-                <a href="index.html" class="address-text">
-                    <h5>Dance Arts Centre</h5>
-                </a>
-                <a href="https://maps.app.goo.gl/556i4L73TyzjbY3N9" target="_blank" class="address-text">
-                    <p>Studio 1, The Hub<br>
-                        St Mary's Centre<br>
-                        Lichfield<br>
-                        WS13 6LG</p>
-                </a>
-                <p>
-                    <a href="tel:01234567890" class="address-text">01234 567890</a>
-                    <a href="mailto:hello@danceartscentre.com" class="address-text">hello@danceartscentre.com</a>
-                </p>
-            </p>
-            
+        <section class="container enrollment">
+
+            <div class="row text-center justify-content-center">
+                <h3 class="col-10 about-us-title">Enrolment Enquiry</h3>
+                <p class="timetable-text">If you wish to register your interest to enrol in any of our classes, please
+                    fill in the enrollment form below and we will contact you to complete your registration and answer
+                    any further questions:</p>
+            </div>
+            <form method="post" action="https://formdump.codeinstitute.net/">
+                <div class="form-group">
+                    <label for="parent-name">Name</label>
+                    <input type="text" class="form-control" id="parent-name" placeholder="Your Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="parent-email">Email</label>
+                    <input type="email" class="form-control" id="parent-email" placeholder="Your Email">
+                </div>
+
+                <div class="form-group">
+                    <label for="parent-telephone">Telephone Number</label>
+                    <input type="tel" class="form-control" id="parent-telephone" placeholder="Your Phone Number">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <label for="student-name">Student Name</label>
+                        <input type="text" class="form-control" id="student-name" placeholder="Student Name">
+                    </div>
+
+                    <div class="form-group col-6">
+                        <label for="student-age">Student Age</label>
+                        <input type="email" class="form-control" id="student-age" placeholder="Student Age">
+                    </div>
+                </div>
+
+                <p>Which genres are you interested in? Please tick all that apply:</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Preschool Ballet" id="preschool-ballet">
+                    <label class="form-check-label" for="preschool-ballet">
+                        Preschool Ballet
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Ballet" id="ballet">
+                    <label class="form-check-label" for="ballet">
+                        Ballet
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="AcroDance" id="acrodance">
+                    <label class="form-check-label" for="acrodance">
+                        AcroDance
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Adult Ballet" id="adult-ballet">
+                    <label class="form-check-label" for="adult-ballet">
+                        Adult Ballet
+                    </label>
+                </div>
+                </div>
+            </form>
+
         </section>
         <section>
             <h2>Studio Hire</h2>

@@ -419,3 +419,25 @@ div.hire-list-container {
     display: inline-block;
     text-align: left;
   }
+
+
+
+
+  /*---------------------------------------------------------------- Enrollment and Contact page---*/
+
+  .enrollment label {
+    color: #f3c6ba;
+    font-size: 18px;
+    padding: 5px 0;
+  }
+
+  .enrollment p {
+    color: #f3c6ba;
+    font-size: 18px;
+    padding-top: 15px;
+  }
+
+  .form-check-input {
+    margin-top: .5em;
+    background-color: #f3c6ba
+  }
