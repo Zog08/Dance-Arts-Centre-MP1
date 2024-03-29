@@ -44,7 +44,9 @@ body {
     --bs-dropdown-link-active-bg: #f5ad99;
 }
 
-
+.nav-avoid {
+    margin-top: 56px;
+}
 
 
 /*---------------------------------------------------------------------------- Header */
@@ -351,6 +353,7 @@ h3 {
     letter-spacing: 1.1px;
     line-height: 25px;
 }
+
 
 
 /* ---------------------------------------------------------------------Studio and hire page*/
