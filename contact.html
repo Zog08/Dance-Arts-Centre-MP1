@@ -21,7 +21,7 @@
     <header>
 
         <!-- Navigation bar for all pages -->
-        <nav class="navbar fixed-top navbar-expand-lg navi-color">
+        <nav class="navbar sticky-top navbar-expand-lg navi-color">
             <div class="container-fluid">
                 <a class="navbar-brand navi-text" href="index.html">Dance Arts Centre</a>
                 <button class="navbar-toggler navi-button" type="button" data-bs-toggle="collapse"
@@ -91,30 +91,32 @@
                     any further questions:</p>
             </div>
             <form method="post" action="https://formdump.codeinstitute.net/">
-                <div class="form-group">
+                <div class="mb-3">
                     <label for="parent-name">Name</label>
-                    <input type="text" class="form-control" id="parent-name" placeholder="Your Name">
+                    <input type="text" class="form-control" id="parent-name" placeholder="Your Name" required>
                 </div>
 
-                <div class="form-group">
-                    <label for="parent-email">Email</label>
-                    <input type="email" class="form-control" id="parent-email" placeholder="Your Email">
-                </div>
-
-                <div class="form-group">
-                    <label for="parent-telephone">Telephone Number</label>
-                    <input type="tel" class="form-control" id="parent-telephone" placeholder="Your Phone Number">
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group col-6">
-                        <label for="student-name">Student Name</label>
-                        <input type="text" class="form-control" id="student-name" placeholder="Student Name">
+                <div class="row">
+                    <div class="mb-3 col-md-6">
+                        <label for="parent-email">Email</label>
+                        <input type="email" class="form-control" id="parent-email" placeholder="Your Email" required>
                     </div>
 
-                    <div class="form-group col-6">
+                    <div class="mb-3 col-md-6">
+                        <label for="parent-telephone">Telephone Number</label>
+                        <input type="tel" class="form-control" id="parent-telephone" placeholder="Your Phone Number" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="mb-3 col-md-6">
+                        <label for="student-name">Student Name</label>
+                        <input type="text" class="form-control" id="student-name" placeholder="Student Name" required>
+                    </div>
+
+                    <div class="mb-3 col-md-6">
                         <label for="student-age">Student Age</label>
-                        <input type="email" class="form-control" id="student-age" placeholder="Student Age">
+                        <input type="email" class="form-control" id="student-age" placeholder="Student Age" required>
                     </div>
                 </div>
 
@@ -137,19 +139,46 @@
                         AcroDance
                     </label>
                 </div>
-                <div class="form-check">
+                <div class="form-check mb-3">
                     <input class="form-check-input" type="checkbox" value="Adult Ballet" id="adult-ballet">
                     <label class="form-check-label" for="adult-ballet">
                         Adult Ballet
                     </label>
                 </div>
-                </div>
+                <button type="submit" class="btn btn-outline-light mb-3 submit-button">SUBMIT</button>
             </form>
 
         </section>
-        <section>
-            <h2>Studio Hire</h2>
-            <p>Here is a photo of our studios on the inside, a least of features and a price list to hire them out.</p>
+        <section class="container-fluid px-0 contact">
+            <div class="row align-items-center mt-5" id="location">
+                <div class="col-md-6 studio-text text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-lg-8">
+                    <h3 class="about-us-title">Contact</h3>
+                    <p class="timetable-text">Alternatively, you can contact us using any of the methods below:</p>
+                    <div class="studio-text-address">
+                        <a href="index.html">
+                            <h5>Dance Arts Centre</h5>
+                        </a>
+                        <a href="https://maps.app.goo.gl/556i4L73TyzjbY3N9" target="_blank">
+                            <p>Studio 1, The Hub<br>
+                                St Mary's Centre<br>
+                                Lichfield<br>
+                                WS13 6LG</p>
+                        </a>
+                        <p>
+                            <a href="tel:01234567890">01234 567890</a> <br>
+                            <a href="mailto:hello@danceartscentre.com">hello@danceartscentre.com</a>
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+        
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/class.jpg" alt="photo of student in ballet class" class="img-fluid">
+                </div>
+            </div>
         </section>
         <!-- FOOTER -->
 
