@@ -103,7 +103,7 @@ body {
     width: fit-content;
     padding: 10px 15px;
     background-color:#f5ad99;
-    color: #fdf8ef;
+    color: #122e3c;
     border-radius: 25px;
     animation-name: spin-enrol;
     animation-duration: 0.5s;
@@ -260,8 +260,8 @@ h3 {
     font-size: 18px;
     line-height: 7px;
     text-align: center;
-    color: #f3f3f3;
-    background-color: #8f8f8f;
+    color: #122e3c;
+    background-color: #f3f3f3;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
