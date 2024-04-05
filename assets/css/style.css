@@ -14,17 +14,17 @@ body {
 .navi-title {
     border-right: 1px solid #122e3c;
     padding: 10px, 15px;
- }
+}
 
- @media (max-width: 992px) {
+@media (max-width: 992px) {
     .navi-title {
         border-right: none;
     }
- }
+}
 
- .navi-title:last-child {
+.navi-title:last-child {
     border-right: none;
- }
+}
 
 .navi-color {
     background-color: #f5ad99;
@@ -56,7 +56,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color: #f3f3f3;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 
@@ -67,27 +67,27 @@ body {
     align-content: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment:scroll;
+    background-attachment: scroll;
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    
+
 
 }
 
 .container-md {
     margin: 0;
     width: 100%;
-} 
+}
 
 
 
 .hero-logo-text h1 {
-    margin-left:10%;
-    margin-top:10%;
+    margin-left: 10%;
+    margin-top: 10%;
     font-family: "Anton", sans-serif;
     font-size: 3rem;
-    color:#122e3c;
+    color: #122e3c;
 }
 
 .logo-link {
@@ -102,7 +102,7 @@ body {
     font-size: 1.5rem;
     width: fit-content;
     padding: 10px 15px;
-    background-color:#f5ad99;
+    background-color: #f5ad99;
     color: #122e3c;
     border-radius: 25px;
     animation-name: spin-enrol;
@@ -112,14 +112,16 @@ body {
 }
 
 @keyframes spin-enrol {
-    50% {transform: rotate(10deg);}
-    
+    50% {
+        transform: rotate(10deg);
+    }
+
 }
 
 @media (max-width: 550px) {
     .hero-image {
         background-image: url('../images/hero-portrait.jpg');
-        
+
     }
 
     .hero-logo-text h1 {
@@ -132,7 +134,7 @@ body {
 
     .enrol-button {
         font-size: 1rem;
-        font-weight:600;
+        font-weight: 600;
         margin-top: 5px;
     }
 }
@@ -142,9 +144,10 @@ body {
 
 
 
-.about-us-title, .teachers-title {
+.about-us-title,
+.teachers-title {
     margin-top: 30px;
-   
+
 }
 
 .about-us-text {
@@ -155,7 +158,7 @@ body {
     line-height: 30px;
     font-size: 20x;
     letter-spacing: 1.2px;
-    
+
 }
 
 .about-us-text h5 {
@@ -192,7 +195,7 @@ h3 {
 
 .teachers {
     margin-bottom: 30px;
-   
+
 }
 
 .card-body {
@@ -205,8 +208,8 @@ h3 {
 
 #footer {
     padding: 15px, 0;
-    background-color:#122e3c;
-    border-top:solid 5px #f5ad99;
+    background-color: #122e3c;
+    border-top: solid 5px #f5ad99;
 }
 
 .footer-block {
@@ -214,18 +217,18 @@ h3 {
 }
 
 .footer-logo-text h2 {
-   
+
     font-family: "Anton", sans-serif;
     font-size: 200%;
-    color:#f5ad99;
+    color: #f5ad99;
 }
 
 .footer-sub {
-    color:#f5ad99;
+    color: #f5ad99;
     font-family: "Work Sans", sans-serif;
     font-size: 2rem;
     Font-weight: 400;
-    letter-spacing: 2px ;
+    letter-spacing: 2px;
     padding-top: 10px;
     text-align: center;
 }
@@ -244,7 +247,7 @@ h3 {
     font-size: 160%;
     margin: 4%;
     padding: 10px 5px;
-    color:#f3f3f3;
+    color: #f3f3f3;
 }
 
 .social-networks a {
@@ -300,7 +303,7 @@ h3 {
     font-weight: 500;
     width: fit-content;
     padding: 10px 15px;
-    background-color:#f5ad99;
+    background-color: #f5ad99;
     color: #122e3c;
     border-radius: 25px;
 }
@@ -333,7 +336,7 @@ h3 {
     line-height: 30px;
     font-size: 20px;
     letter-spacing: 1.2px;
-    
+
 }
 
 .accordion-header {
@@ -383,8 +386,8 @@ h3 {
     text-decoration: none;
     font-size: 18px;
     line-height: 22px;
-    font-weight:600;
-    color:#f3f3f3;
+    font-weight: 600;
+    color: #f3f3f3;
 
 }
 
@@ -396,10 +399,10 @@ h3 {
 }
 
 
-.studio-text-address a{
-    
+.studio-text-address a {
+
     color: #f3f3f3;
-    transition: color .3s ease-in-out,  .3s ease-in-out;
+    transition: color .3s ease-in-out, .3s ease-in-out;
 }
 
 .studio-text-address a:hover {
@@ -414,36 +417,67 @@ h3 {
 
 div.hire-list-container {
     text-align: center;
-  }
-  
-  ul.hire-list {
+}
+
+ul.hire-list {
     display: inline-block;
     text-align: left;
-  }
+}
 
 
 
 
-  /*---------------------------------------------------------------- Enrollment and Contact page---*/
+/*---------------------------------------------------------------- Enrollment and Contact page---*/
 
-  .enrollment label {
+.enrollment label {
     color: #f3c6ba;
     font-size: 18px;
     padding: 5px 0;
-  }
+}
 
-  .enrollment p, .contact p {
+.enrollment p,
+.contact p {
     color: #f3c6ba;
     font-size: 18px;
     padding-top: 15px;
-  }
+}
 
-  .form-check-input {
+.form-check-input {
     margin-top: .5em;
     background-color: #f3c6ba
-  }
+}
 
-  .submit-button {
-    color:#f3c6ba
-    
-  }
+.submit-button {
+    color: #f3c6ba
+}
+
+/*---------------------------------------------------------------- 404 Error page---*/
+
+.error-page {
+
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    color: #122e3c;
+
+}
+
+.error-png {}
+
+.error-row {
+    background-color: #f3f3f3;
+   padding-bottom: 30px;
+}
+
+.error-button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: fit-content;
+    padding: 10px 15px;
+    background-color: #f5ad99;
+    color: #122e3c;
+    border-radius: 25px;
+}
