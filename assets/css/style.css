@@ -63,7 +63,7 @@ body {
 .hero-image {
     display: flex;
     flex-direction: column;
-    background-image: url('../images/Hero-image.jpg');
+    background-image: url('../images/hero-image.jpg');
     align-content: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -294,25 +294,12 @@ h3 {
 
 /* ---------------------------------------------------------------------Timetable and classes page*/
 
-.timetable-button {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    text-decoration: none;
-    font-family: "Work Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    width: fit-content;
-    padding: 10px 15px;
-    background-color: #f5ad99;
-    color: #122e3c;
-    border-radius: 25px;
-}
 
-.timetable-title-box {
+.prices-title-box {
     margin-top: 30px;
 }
 
-.timetable-text {
+.prices-text {
     background-color: #122e3c;
     margin: 20px 0;
     border: 0.25px solid #122e3c;
@@ -320,8 +307,48 @@ h3 {
     line-height: 30px;
     font-size: 20px;
     letter-spacing: 1.2px;
+}
 
+.prices-title {
+    width: 80%;
+    font-family: "Anton", sans-serif;
+    font-size: 2em;
+    padding: 2% 1%;
+    background-color: #f5ad99;
+    color: #122e3c;
+    margin: 0 auto;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 
+.prices {
+    width: 80%;
+    margin: 5% auto;
+    padding: 2%;
+    text-align: center;
+    background-color: #fdf8ef;
+    border-top: 1px solid #122e3c;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.prices h6 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: "work sans", sans-serif;
+}
+
+.price-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 10%;
+        align-items: flex-end;
+}
+
+.price-right {
+    text-align: right;
 }
 
 .classes-title-box {
@@ -469,11 +496,9 @@ ul.hire-list {
 
 }
 
-.error-png {}
-
 .error-row {
     background-color: #f3f3f3;
-   padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .error-button {

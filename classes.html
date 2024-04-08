@@ -20,7 +20,7 @@
 <body>
     <header>
 
-        <!-- Navigation bar for all pages -->
+        <!-- Navigation bar for all pages, base taken from bootstrap snippet, see Readme.md for more info. -->
         <nav class="navbar sticky-top navbar-expand-lg navi-color">
             <div class="container-fluid">
                 <a class="navbar-brand navi-text" href="index.html">Dance Arts Centre</a>
@@ -83,19 +83,58 @@
 
     <!-- CLASSES - MAIN CONTENTS-->
 
-
     <section class="container-fluid" id="timetable">
-        <div class="row text-center justify-content-center timetable-title-box">
-            <h3 class="col-10 timetable-title">Timetable</h3>
+        <div class="row text-center justify-content-center prices-title-box">
+            <h3 class="col-10 classes-title">Prices</h3>
         </div>
 
         <div class="row text-center justify-content-center">
             <div class="col-10 ">
-                <p class="timetable-text">Click the button for a copy of our latest timetable</p>
-
+                <p class="prices-text">For our most up-to-date pricing structure, please see the below table.<br>
+                For our students under the age of 18 years, we bill per term.
+            <br>
+                For our adult students you can pay per class, or for a discounted rate, block a terms worth of classes with us.
+        </p>
                 <div>
-                    <a href="assets/timetable/Timetable-DAC.pdf" class="timetable-button" target="_blank">Download
-                        Timetable</a>
+
+                    <div class="container-fluid">
+                        <div class="row prices-title">
+                            <div class="col-12">
+                                <h4>Class Prices - 2024</h4>
+                            </div>
+                        </div>
+                        <div class="row prices mt-0">
+                            <div class="col-12 col-sm-6">
+                                <h6>Child Classes</h6>
+                                <hr>
+                                <div class="price-left">
+                                    <p>One class per week</p>
+                                    <p class="price-right">£120</p>
+                                </div>
+                                <div class="price-left">
+                                    <p>Two classes per week</p>
+                                    <p class="price-right">£220</p>
+                                </div>
+                                <div class="price-left">
+                                    <p>Three classes per week</p>
+                                    <p class="price-right">£300</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <h6>Adult Classes</h6>
+                                <hr>
+                                <div class="price-left">
+                                    <p>One class, per class</p>
+                                    <p class="price-right">£10</p>
+                                </div>
+                                <div class="price-left">
+                                    <p>One class, per term</p>
+                                    <p class="price-right">£100</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -113,57 +152,83 @@
         <div class="row text-center justify-content-center classes-box">
             <div class="col-10 col-lg-8  classes-text">
                 <p>
-                    Classes here at Dance Arts Centre are taught by our fully qualified and experienced staff. To find out more about each genre we teach at the studios, please check out the information below:
+                    Classes here at Dance Arts Centre are taught by our fully qualified and experienced staff. To find
+                    out more about each genre we teach at the studios, please check out the information below:
                 </p>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Ballet
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="row accordion-body">
-                            In a<strong>ballet</strong> class, students learn a variety of techniques, movements, and skills that are fundamental to classical ballet. Throughout these lessons, emphasis is placed on proper technique, posture, alignment, and discipline. Ballet classes provide a holistic approach to dance education, fostering physical strength, flexibility, coordination, musicality, and artistic expression.                      
-                
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Ballet
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In a <strong>ballet</strong> class, students learn a variety of techniques, movements,
+                                and skills that are fundamental to classical ballet. Throughout these lessons, emphasis
+                                is placed on proper technique, posture, alignment, and discipline. Ballet classes
+                                provide a holistic approach to dance education, fostering physical strength,
+                                flexibility, coordination, musicality, and artistic expression.
+
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          AcroDance
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            In an <strong>AcroDance</strong> class, students learn a fusion of acrobatics and dance techniques, creating a dynamic and expressive form of movement. Overall, acrodance classes provide a dynamic and challenging environment where students can develop both their acrobatic and dance skills while fostering creativity, athleticism, and artistic expression.
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                AcroDance
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In an <strong>AcroDance</strong> class, students learn a fusion of acrobatics and dance
+                                techniques, creating a dynamic and expressive form of movement. Overall, acrodance
+                                classes provide a dynamic and challenging environment where students can develop both
+                                their acrobatic and dance skills while fostering creativity, athleticism, and artistic
+                                expression.
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Preschool Ballet
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            In our <strong>preschool ballet</strong> class, young children are introduced to the magical world of ballet through playful and imaginative activities. Preschool ballet classes provide a fun and nurturing introduction to ballet, fostering a love for dance and movement while promoting physical, cognitive, and social development in young children. We often use fun props such as ribbon, scraves, parachutes and floor spots too!                       </div>
-                      </div>
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Preschool Ballet
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In our <strong>preschool ballet</strong> class, young children are introduced to the
+                                magical world of ballet through playful and imaginative activities. Preschool ballet
+                                classes provide a fun and nurturing introduction to ballet, fostering a love for dance
+                                and movement while promoting physical, cognitive, and social development in young
+                                children. We often use fun props such as ribbon, scraves, parachutes and floor spots
+                                too! </div>
+                        </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                          Adult Ballet
-                        </button>
-                      </h2>
-                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            In our popular <strong>adult ballet</strong> class, participants learn classical ballet techniques tailored to the needs and abilities of adult learners whatever your existing skill level. These classes offer a fulfilling and rewarding experience for participants of all ages and backgrounds, providing a blend of physical activity, artistic expression, and personal growth in a supportive and encouraging atmosphere.                        </div>
-                      </div>
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Adult Ballet
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In our popular <strong>adult ballet</strong> class, participants learn classical ballet
+                                techniques tailored to the needs and abilities of adult learners whatever your existing
+                                skill level. These classes offer a fulfilling and rewarding experience for participants
+                                of all ages and backgrounds, providing a blend of physical activity, artistic
+                                expression, and personal growth in a supportive and encouraging atmosphere. </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
 
         </div>
@@ -171,7 +236,7 @@
     </section>
 
 
-    <!-- FOOTER -->
+    <!-- Footer for all pages. Responsive. Logo links to index.html. Social icons from Font Awesome, code based on CI Whiskey Drop project. See readme.md for more info. Address opens in new tab google map. Phone and email links to users phone / email app -->
 
     <footer class="container-fluid">
         <div class="row" id="footer">
