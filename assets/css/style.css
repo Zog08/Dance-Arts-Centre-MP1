@@ -156,13 +156,25 @@ body {
     border-bottom: 0.5px solid #fdf8ef;
     color: #f3f3f3;
     line-height: 30px;
-    font-size: 20x;
+    font-size: 18px;
     letter-spacing: 1.2px;
-
 }
 
 .about-us-text h5 {
     font-size: 25px;
+}
+
+.quote-row {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+.quote-text {
+        background-color: #122e3c;
+        margin: 20px 10px;
+        color: #f3c6ba;
+        line-height: 30px;
+        font-size: 20px;
+        letter-spacing: 1.2px;
 }
 
 .about-us-photo {
