@@ -218,7 +218,7 @@ h2 {
 }
 
 .card-body {
-    background-color: #fdf8ef;
+    background-color: #f3f3f3;
 }
 
 img.card-img-top {
@@ -322,7 +322,7 @@ img.card-img-top {
     margin-top: 30px;
 }
 
-.prices-text {
+.prices-text, .classes-text {
     background-color: #122e3c;
     margin: 20px 0;
     border: 0.25px solid #122e3c;
@@ -343,6 +343,10 @@ img.card-img-top {
     text-align: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.prices-box {
+    padding:0;
 }
 
 .prices {
@@ -377,17 +381,6 @@ img.card-img-top {
 
 .classes-title-box {
     margin-top: 40px;
-}
-
-.classes-text {
-    background-color: #122e3c;
-    margin: 20px 0;
-    border: 0.25px solid #122e3c;
-    color: #f3c6ba;
-    line-height: 30px;
-    font-size: 20px;
-    letter-spacing: 1.2px;
-
 }
 
 .classes-box, .prices-box {
@@ -425,7 +418,7 @@ img.card-img-top {
 /* ---------------------------------------------------------------------Studio and hire page*/
 
 .studio-text {
-    color: #f3c6ba;
+    color: #f3f3f3;
     letter-spacing: 1.2px;
     font-size: 16px;
     letter-spacing: 1.2px;
@@ -450,8 +443,8 @@ img.card-img-top {
     font-size: 18px;
     line-height: 22px;
     font-weight: 600;
-    color: #f3f3f3;
-
+    color: #f5ad99;
+    transition: color .3s ease-in-out, .3s ease-in-out;
 }
 
 .studio-text-address h5 {
@@ -462,15 +455,11 @@ img.card-img-top {
 }
 
 
-.studio-text-address a {
 
-    color: #f3f3f3;
-    transition: color .3s ease-in-out, .3s ease-in-out;
-}
 
 .studio-text-address a:hover {
-    color: inset 100px 0 0 0 #f5ad99;
-    color: #f5ad99;
+    color: inset 100px 0 0 0 #f3f3f3;
+    color: #f3f3f3;
 }
 
 
