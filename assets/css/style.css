@@ -324,7 +324,8 @@ img.card-img-top {
 
 .prices-text, .classes-text {
     background-color: #122e3c;
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 0;
     border: 0.25px solid #122e3c;
     color: #f3f3f3;
     line-height: 30px;
@@ -441,7 +442,7 @@ img.card-img-top {
 .studio-text-address a {
     text-decoration: none;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 25px;
     font-weight: 600;
     color: #f5ad99;
     transition: color .3s ease-in-out, .3s ease-in-out;
@@ -454,14 +455,15 @@ img.card-img-top {
     margin-top: 30px;
 }
 
-
-
-
 .studio-text-address a:hover {
     color: inset 100px 0 0 0 #f3f3f3;
     color: #f3f3f3;
 }
 
+.contact-link {
+    padding: 10px;
+    line-height: 30px;
+}
 
 .hire-section {
     margin-top: 30px;
@@ -499,6 +501,11 @@ ul.hire-list {
 .form-check-input {
     margin-top: .5em;
     background-color: #f3c6ba
+}
+
+.form-text {
+    color:#f3f3f3;
+    font-size: 18px;
 }
 
 .submit-button {
