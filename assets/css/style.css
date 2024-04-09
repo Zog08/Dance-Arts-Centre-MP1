@@ -303,7 +303,7 @@ h3 {
     background-color: #122e3c;
     margin: 20px 0;
     border: 0.25px solid #122e3c;
-    color: #f3f3f3;
+    color: #fdf8ef;
     line-height: 30px;
     font-size: 20px;
     letter-spacing: 1.2px;
@@ -349,6 +349,7 @@ h3 {
 
 .price-right {
     text-align: right;
+    padding-left: 15px;
 }
 
 .classes-title-box {
@@ -359,11 +360,15 @@ h3 {
     background-color: #122e3c;
     margin: 20px 0;
     border: 0.25px solid #122e3c;
-    color: #f3f3f3;
+    color: #f3c6ba;
     line-height: 30px;
     font-size: 20px;
     letter-spacing: 1.2px;
 
+}
+
+.classes-box, .prices-box {
+    margin-top: 30px;
 }
 
 .accordion-header {
