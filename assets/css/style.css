@@ -84,7 +84,7 @@ body {
 
 
 
-.hero-logo-text h1 {
+.hero-logo-text p {
     margin-left: 10%;
     margin-top: 10%;
     font-family: "Anton", sans-serif;
@@ -126,7 +126,7 @@ body {
 
     }
 
-    .hero-logo-text h1 {
+    .hero-logo-text p {
         font-size: 2rem;
     }
 
@@ -195,7 +195,7 @@ body {
 
 
 
-h3 {
+h2 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
     padding-bottom: 15px;
@@ -238,7 +238,7 @@ img.card-img-top {
     padding: 15px 12px;
 }
 
-.footer-logo-text h2 {
+.footer-logo-text p {
 
     font-family: "Anton", sans-serif;
     font-size: 200%;
@@ -309,8 +309,9 @@ img.card-img-top {
     line-height: 14px;
 }
 
-.address-text h5 {
+.address-text h6 {
     letter-spacing: 1.5px;
+    font-size: 18px;
 }
 
 
@@ -349,7 +350,7 @@ img.card-img-top {
     margin: 5% auto;
     padding: 2%;
     text-align: center;
-    background-color: #fdf8ef;
+    background-color: #f3f3f3;
     border-top: 1px solid #122e3c;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -400,6 +401,14 @@ img.card-img-top {
     font-size: 20px;
 }
 
+.accordion-item {
+    border-color: #122e3c;
+}
+
+.accordion-button {
+    background-color:#f3f3f3;
+}
+
 .accordion-button:not(.collapsed) {
     background-color: #f3c6ba;
 }
@@ -424,7 +433,7 @@ img.card-img-top {
 }
 
 
-.studio-text h4 {
+.studio-text h2 {
     margin-top: 30px;
     margin-bottom: 12px;
     font-size: 30px;
