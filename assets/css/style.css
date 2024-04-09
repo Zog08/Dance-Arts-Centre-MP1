@@ -325,11 +325,11 @@ img.card-img-top {
 .prices-text, .classes-text {
     background-color: #122e3c;
     margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     border: 0.25px solid #122e3c;
     color: #f3f3f3;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1.2px;
 }
 
