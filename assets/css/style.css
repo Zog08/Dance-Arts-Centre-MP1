@@ -120,7 +120,7 @@ body {
 
 @media (max-width: 550px) {
     .hero-image {
-        background-image: url('../images/hero-portrait.jpg');
+        background-image: url('../images/hero-portrait.webp');
 
     }
 
