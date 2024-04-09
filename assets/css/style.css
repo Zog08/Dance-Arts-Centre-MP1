@@ -241,6 +241,10 @@ img.card-img-top {
     color: #f5ad99;
 }
 
+.logo-link {
+    text-decoration: none;
+}
+
 .footer-sub {
     color: #f5ad99;
     font-family: "Work Sans", sans-serif;
