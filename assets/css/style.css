@@ -177,6 +177,10 @@ body {
         letter-spacing: 1.2px;
 }
 
+.blockquote-footer {
+    color:#f3c6ba;
+}
+
 .about-us-photo {
     background-image: url('../images/studio.jpg');
     display: flex;
