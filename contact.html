@@ -86,65 +86,72 @@
 
             <div class="row text-center justify-content-center">
                 <h3 class="col-10 about-us-title">Enrolment Enquiry</h3>
-                <p class="prices-text col-10">If you wish to register your interest to enrol in any of our classes, please
+                <p class="prices-text col-10">If you wish to register your interest to enrol in any of our classes,
+                    please
                     fill in the enrollment form below and we will contact you to complete your registration and answer
                     any further questions:</p>
             </div>
             <form method="post" action="https://formdump.codeinstitute.net/">
                 <div class="mb-3">
                     <label for="parent-name">Name</label>
-                    <input type="text" class="form-control" id="parent-name" placeholder="Your Name" required>
+                    <input type="text" class="form-control" id="parent-name" placeholder="Your Name" required
+                        aria-required="true">
                 </div>
 
                 <div class="row">
                     <div class="mb-3 col-md-6">
                         <label for="parent-email">Email</label>
-                        <input type="email" class="form-control" id="parent-email" placeholder="Your Email" required>
+                        <input type="email" class="form-control" id="parent-email" placeholder="Your Email" required
+                            aria-required="true">
                     </div>
 
                     <div class="mb-3 col-md-6">
                         <label for="parent-telephone">Telephone Number</label>
-                        <input type="tel" class="form-control" id="parent-telephone" placeholder="Your Phone Number" required>
+                        <input type="tel" class="form-control" id="parent-telephone" placeholder="Your Phone Number"
+                            required aria-required="true">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="mb-3 col-md-6">
                         <label for="student-name">Student Name</label>
-                        <input type="text" class="form-control" id="student-name" placeholder="Student Name" required>
+                        <input type="text" class="form-control" id="student-name" placeholder="Student Name" required
+                            aria-required="true">
                     </div>
 
                     <div class="mb-3 col-md-6">
                         <label for="student-age">Student Age</label>
-                        <input type="text" class="form-control" id="student-age" placeholder="Student Age" required>
+                        <input type="text" class="form-control" id="student-age" placeholder="Student Age" required
+                            aria-required="true">
                     </div>
                 </div>
-
-                <p>Which genres are you interested in? Please tick all that apply:</p>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Preschool Ballet" id="preschool-ballet">
-                    <label class="form-check-label" for="preschool-ballet">
-                        Preschool Ballet
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="Ballet" id="ballet">
-                    <label class="form-check-label" for="ballet">
-                        Ballet
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="AcroDance" id="acrodance">
-                    <label class="form-check-label" for="acrodance">
-                        AcroDance
-                    </label>
-                </div>
-                <div class="form-check mb-3">
-                    <input class="form-check-input" type="checkbox" value="Adult Ballet" id="adult-ballet">
-                    <label class="form-check-label" for="adult-ballet">
-                        Adult Ballet
-                    </label>
-                </div>
+                <fieldset>
+                    <label>Which genres are you interested in? Please tick all that apply:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Preschool Ballet" id="preschool-ballet">
+                        <label class="form-check-label" for="preschool-ballet">
+                            Preschool Ballet
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Ballet" id="ballet">
+                        <label class="form-check-label" for="ballet">
+                            Ballet
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="AcroDance" id="acrodance">
+                        <label class="form-check-label" for="acrodance">
+                            AcroDance
+                        </label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="Adult Ballet" id="adult-ballet">
+                        <label class="form-check-label" for="adult-ballet">
+                            Adult Ballet
+                        </label>
+                    </div>
+                </fieldset>
                 <button type="submit" class="btn btn-outline-light mb-3 submit-button">SUBMIT</button>
             </form>
 
@@ -154,33 +161,33 @@
                 <div class="col-md-6 studio-text text-center">
                     <div class="row justify-content-center">
                         <div class="col-10 col-lg-8">
-                    <h3 class="about-us-title">Contact</h3>
-                    <p class="prices-text">Alternatively, you can contact us using any of the methods below:</p>
-                    <div class="studio-text-address">
-                        <a href="index.html">
-                            <h5>Dance Arts Centre</h5>
-                        </a>
-                        <a href="https://maps.app.goo.gl/556i4L73TyzjbY3N9" target="_blank">
-                            <p>Studio 1, The Hub<br>
-                                St Mary's Centre<br>
-                                Lichfield<br>
-                                WS13 6LG</p>
-                        </a>
-                        <p>
-                            <a href="tel:01234567890">01234 567890</a> <br>
-                            <a href="mailto:hello@danceartscentre.com">hello@danceartscentre.com</a>
-                        </p>
+                            <h3 class="about-us-title">Contact</h3>
+                            <p class="prices-text">Alternatively, you can contact us using any of the methods below:</p>
+                            <div class="studio-text-address">
+                                <a href="index.html">
+                                    <h5>Dance Arts Centre</h5>
+                                </a>
+                                <a href="https://maps.app.goo.gl/556i4L73TyzjbY3N9" target="_blank">
+                                    <p>Studio 1, The Hub<br>
+                                        St Mary's Centre<br>
+                                        Lichfield<br>
+                                        WS13 6LG</p>
+                                </a>
+                                <p>
+                                    <a href="tel:01234567890">01234 567890</a> <br>
+                                    <a href="mailto:hello@danceartscentre.com">hello@danceartscentre.com</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    </div>
-        
+
                 </div>
                 <div class="col-md-6">
                     <img src="assets/images/class.jpg" alt="photo of student in ballet class" class="img-fluid">
                 </div>
             </div>
         </section>
-  <!-- Footer for all pages. Responsive. Logo links to index.html. Social icons from Font Awesome, code based on CI Whiskey Drop project. See readme.md for more info. Address opens in new tab google map. Phone and email links to users phone / email app -->
+        <!-- Footer for all pages. Responsive. Logo links to index.html. Social icons from Font Awesome, code based on CI Whiskey Drop project. See readme.md for more info. Address opens in new tab google map. Phone and email links to users phone / email app -->
 
         <footer class="container-fluid">
             <div class="row" id="footer">
