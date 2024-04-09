@@ -326,7 +326,7 @@ img.card-img-top {
     background-color: #122e3c;
     margin: 20px 0;
     border: 0.25px solid #122e3c;
-    color: #fdf8ef;
+    color: #f3f3f3;
     line-height: 30px;
     font-size: 20px;
     letter-spacing: 1.2px;
@@ -474,6 +474,7 @@ div.hire-list-container {
 ul.hire-list {
     display: inline-block;
     text-align: left;
+    padding-left: 0;
 }
 
 .map iframe {
@@ -493,13 +494,6 @@ ul.hire-list {
     color: #f3c6ba;
     font-size: 18px;
     padding: 5px 0;
-}
-
-.enrollment p,
-.contact p {
-    color: #f3c6ba;
-    font-size: 18px;
-    padding-top: 15px;
 }
 
 .form-check-input {
