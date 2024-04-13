@@ -516,6 +516,11 @@ ul.hire-list {
     color: #f3c6ba
 }
 
+.contact-image {
+    max-width: 100%;
+    max-height: auto;
+}
+
 /*---------------------------------------------------------------- 404 Error page---*/
 
 .error-page {
