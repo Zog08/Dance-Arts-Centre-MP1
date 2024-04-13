@@ -464,6 +464,11 @@ img.card-img-top {
     line-height: 30px;
 }
 
+.building {
+    max-width: 100%;
+    max-height: auto;
+}
+
 .hire-section {
     margin-top: 30px;
 }
