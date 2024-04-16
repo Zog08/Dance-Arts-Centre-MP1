@@ -151,19 +151,16 @@ The website consists of four separate pages:
 ### Wireframes
 
 <details><summary>Home</summary>
-<img src="docs/wireframes/wireframes-homepage.png">
+<img src="docs/wireframes/dac-homepage-wireframe.png">
 </details>
-<details><summary>About</summary>
-<img src="docs/wireframes/wireframes-about.png">
+<details><summary>Classes</summary>
+<img src="docs/wireframes/dac-classes-wireframe.png">
 </details>
-<details><summary>Menu</summary>
-<img src="docs/wireframes/wireframes-menu.png">
-</details>
-<details><summary>Gallery</summary>
-<img src="docs/wireframes/wireframes-gallery.png">
+<details><summary>Location</summary>
+<img src="docs/wireframes/dac-location-wireframe.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/wireframes/wireframes-contact.png">
+<img src="docs/wireframes/dac-contact-wireframe.png">
 </details>
 
 ## Technologies Used
@@ -178,24 +175,26 @@ The website consists of four separate pages:
 - GitHub
 - Gitpod
 - Tinypng
-- Paint<span>.</span>NET
+- Unsplash<span>.</span>com
 - Balsamiq
 - Google Fonts
-- Adobe Color
+- Huemint<span>.</span>com
 - Font Awsome
-- Favicon<span>.</span>io
+- Pixabay<span>.</span>com
+- Pexels<span>.</span>com
 
 ## Features
-The page consists of five pages and fourteen features
+The page consists of four pages and fourteen features
 
 ### Logo and Navigation Bar
-- Featured on all five pages
+- Featured on all four pages
 - The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
-links to the Homepage, About page, Menu page, Gallery and Contact us page
+links to the Homepage, Classes, Studio and Contact pages.
 - It allows users to easily navigate the page
-- The link for the page the user is currently on is highlighted 
+- It sticks to the top of the page.
+- The basic design of the responsive navbar was taken from Bootstrap. I changed the background colour of the bar and added divisions between the page links. When used on smaller screens, I removed the divisions and added a background colour when the links are clicked, to match the page branding.
 
-![Logo and navbar](docs/features/feature-logo-and-navbar.jpg)
+![Navbar](docs/features/features-navbar.jpeg)
 
 ### Carousel
 - Introduces the user to the restaurant with a small three picture slide show
