@@ -196,23 +196,48 @@ links to the Homepage, Classes, Studio and Contact pages.
 
 ![Navbar](docs/features/features-navbar.jpeg)
 
-### Carousel
-- Introduces the user to the restaurant with a small three picture slide show
-- Options for the user to navigate the slide show via back and forward arrows or indicators at the bottom
+### Hero Image
+- Introduces the user to the dance school with a large cover image. Landscape on medium and above screens. Different portrait oriented image for small screens.
+- Overlayed on the hero image is a text logo of Dance Arts Centre and a call to action button to enrol now.
+- The hero images convey a professional and modern dance school and tie in with the colour branding. I enjoy how the girl is looking at the enrol button, drawing you eye to the action. 
 
-![Carousel](docs/features/feature-carousel.jpg)
+![Hero-image](docs/features/features-hero-image.jpeg)
 
-### News
-- Allowes the user to see upcoming events or any news about the restaurant
+### Enrol Button
+- A media query makes the button wiggle when the home page is loaded, drawing youo eye to the button.
+- Links directly to the enrollment form on the Contact page
+- Both image sizes flow visually to the call to action button.
 - User stories covered: 13
 
-![News](docs/features/feature-news.jpg)
+![Enrol-button](docs/features/features-enrol-button.jpeg)
 
-### Meal-deal
-- Allowes users to see what meal-deal is available for the upcoming Sunday
+### About Us
+- Allowes users to see an introduction to the school and an overview of the services they provide
 - User stories covered: 5
 
-![Meal-deal](docs/features/feature-meal-deal.jpg)
+![About-us](docs/features/features-about-us.jpeg)
+
+### Quote
+- Quote from a parent at the dance school. This helps gain new parents trust.
+- User stories covered: 3, 14
+
+![About Us](docs/features/features-quote.jpeg)
+
+### Video
+- A short video, with no audio, autoplays when browser is loaded. 
+- It loops to play again once finished.
+- A video of a real class at the dance school, which gives an insight into classes.
+- User stories covered: 3, 14
+
+![About Us](docs/features/features-video-still.jpeg)
+
+### Teacher Cards
+- Gives a description of the teaching staff, along with an image
+- Helps gain the trust of new parents
+- Presents a standard of professionalism and shows the staff qualifications etc.
+- User stories covered: 3, 14
+
+![About Us](docs/features/features-teacher-cards.jpeg)
 
 ### Footer
 - Featured on all five pages
