@@ -16,7 +16,7 @@ Code: Colt Steele / Udemy / Full Stack Web Dev Course (responsive layout, order 
 # Dance Arts Centre
 (Developer: Zoe Heathcote)
 
-![Mockup image](docs/am-i-responsive.jpg)
+![Mockup image](docs/features/am-i-responsive.jpeg)
 
 [Live webpage](https://zog08.github.io/Dance-Arts-Centre-MP1//)
 
@@ -120,7 +120,7 @@ The webpage was designed to evoke the feeling of a calm and professional, modern
 
 ### Colour
 The colour scheme was chosen for its good contrast (tested via webAIM for accessibility) and for its modern yet timeless appeal. The traditional ballet pink is offset by a strong and more masculine dark navy blue.
-I ran a few different options through AI colour generator, [Huemint](https://huemint.com/brand-intersection/#palette=fdf8ef-122e3c-4184f7-f5ad99) which inspired the colour palette i finally landed on. The Huemint generated a royal blue colour alongside the pink and navy, but after testing it on the webpage the royal blue was confusing because it gave the appearance of a link to follow when used in text, so I removed that colour from the pallette.
+I ran a few different options through AI colour generator, [Huemint](https://huemint.com/brand-intersection/#palette=fdf8ef-122e3c-4184f7-f5ad99) which inspired the colour palette that I finally landed on. The Huemint site generated a royal blue colour alongside the pink and navy, but after testing it on the webpage the royal blue was confusing because it gave the appearance of a link to follow when used in text, so I removed that colour from the pallette.
 I also tweaked the pale grey-cream colour to better suit the photos used; the original from Huemint was too 'yellow'.
 <br>
 
@@ -129,20 +129,24 @@ I also tweaked the pale grey-cream colour to better suit the photos used; the or
 ### Fonts
 Anton with sans serif as fallback was used for the logo and some headings. 
 <br>
+![Anton Font](docs/features/anton-font.jpeg)
+<br>
 Work Sans with sans serif as fallback was used for the body. 
+<br>
+![Work Sans Font](docs/features/work-sans-font.jpeg)
 <br>
 Both fonts are considered dyslexia friendly.
 <br>
 Both fonts were imported from Google Fonts
 
+
 ### Structure
-The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
-The website consists of five separate pages: 
-- A homepage with a sections for News and Sunday Meal Offers
-- An about page with the About Us and Meet the Chef
-- A menu page
-- A image gallery with images and video showcasing the general feel of the restaurant
-- A contact page with a contact form, a map and information about the bussines section
+The structure of the page is built in a recognisable and intuitive format. Upon arriving to the website the user sees a familiar type of navigation bar with the dance school name logo on the left side and the navigation links to the right. 
+The website consists of four separate pages: 
+- A homepage, with About Us, a customer quote with embedded video, About Teachers section.
+- A Classes page, with prices and class types explained.
+- A Studio page, with information on location, hire prices and an embedded Google map.
+- A Contact page, with an enrollment form and contact details.
 
 ### Wireframes
 
@@ -169,7 +173,7 @@ The website consists of five separate pages:
 - CSS
 
 ### Frameworks & Tools
-- Bootstrap v5.0
+- Bootstrap v5.3.3
 - Git
 - GitHub
 - Gitpod
