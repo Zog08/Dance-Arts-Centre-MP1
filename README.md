@@ -91,24 +91,23 @@ Code: Colt Steele / Udemy / Full Stack Web Dev Course (responsive layout, order 
 
 #### First-time User 
 1. As a first time user, I want to know where the dance school is located.
-2. As a first time user, I want to know the prices for classes.
-3. As a first time user, I want to know more about the classes and teachers.
+2. As a first time user, I want to know the prices.
+3. As a first time user, I want to know more about the classes.
 4. As a first time user, I want to get an idea and feel for the standard of teaching and the business.
 
 #### Returning User
 5. As a returning user, I want to see the location.
-6. As a returnign user, I want to easily contact the school.
+6. As a returning user, I want to easily contact the school.
 7. As a returning user, I want to see any changes to the prices.
 8. As a returning user, I want to find the dance school on social media.
-9. As a returning user, I want to find directions to the school.
 
 #### Site Owner 
-13. As the site owner, I want to be able to considerable cut admin time spent giving out basic information that you can now find on the website.
-14. As the site owner, I want users to get to know the dance school and trust us with their children and their training.
-15. As the site owner, I want the users to be able to contact us
-15. As the site owner, I want the users to be able to capture new business with the enrol form and store sata safely.
-15. As the site owner, I want the users to be able to find our location
-15. As the site owner, I want the users to be able to hire our studio space.
+9. As the site owner, I want to be able to considerable cut admin time spent giving out basic information that you can now find on the website.
+10. As the site owner, I want users to get to know the dance school and trust us with their children and their training.
+11. As the site owner, I want the users to be able to contact us
+12. As the site owner, I want the users to be able to capture new business with the enrol form and store sata safely.
+13. As the site owner, I want the users to be able to find our location
+14. As the site owner, I want the users to be able to hire our studio space.
 
 
 
@@ -200,6 +199,7 @@ links to the Homepage, Classes, Studio and Contact pages.
 - Introduces the user to the dance school with a large cover image. Landscape on medium and above screens. Different portrait oriented image for small screens.
 - Overlayed on the hero image is a text logo of Dance Arts Centre and a call to action button to enrol now.
 - The hero images convey a professional and modern dance school and tie in with the colour branding. I enjoy how the girl is looking at the enrol button, drawing you eye to the action. 
+- User stories covered: 4, 14
 
 ![Hero-image](docs/features/features-hero-image.jpeg)
 
@@ -207,21 +207,21 @@ links to the Homepage, Classes, Studio and Contact pages.
 - A media query makes the button wiggle when the home page is loaded, drawing youo eye to the button.
 - Links directly to the enrollment form on the Contact page
 - Both image sizes flow visually to the call to action button.
-- User stories covered: 13
+- User stories covered: 16
 
 ![Enrol-button](docs/features/features-enrol-button.jpeg)
 
 ### About Us
 - Allowes users to see an introduction to the school and an overview of the services they provide
-- User stories covered: 5
+- User stories covered: 4, 13, 14
 
 ![About-us](docs/features/features-about-us.jpeg)
 
 ### Quote
 - Quote from a parent at the dance school. This helps gain new parents trust.
-- User stories covered: 3, 14
+- User stories covered: 4, 14
 
-![About Us](docs/features/features-quote.jpeg)
+![Quote](docs/features/features-quote.jpeg)
 
 ### Video
 - A short video, with no audio, autoplays when browser is loaded. 
@@ -235,32 +235,32 @@ links to the Homepage, Classes, Studio and Contact pages.
 - Gives a description of the teaching staff, along with an image
 - Helps gain the trust of new parents
 - Presents a standard of professionalism and shows the staff qualifications etc.
-- User stories covered: 3, 14
+- User stories covered: 4, 14
 
 ![About Us](docs/features/features-teacher-cards.jpeg)
 
 ### Footer
 - Featured on all four pages
 - Consists of three seperate sections: text logo that links back to home page, social media links and contact info that links to a new tab with Google map / email / phone call.
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 1, 5, 6, 8, 13, 15, 17
 
 ![Footer](docs/features/features-footer.jpeg)
 
 ### Prices
 - Consists of heading, short text information and prices available in an easy to read format in a responsive table.
-- User stories covered: 3, 14
+- User stories covered: 2, 7, 13
 
-![About Us](docs/features/features-prices.jpeg)
+![Prices](docs/features/features-prices.jpeg)
 
 ### Class Types
 - An accordion style drop down menu, each section contains an explanation of the dance genre along with a photo.
 - Responsive design. Basis taken from Bootstrap, responsive images added through my own trial and error.
 - Headingsin the accordion change to pale pink background when a section is opened.
-- User stories covered: 3
+- User stories covered: 3, 13, 14
 
-![Reviews](docs/features/features-classtypes-collapsed.jpeg)
+![Class Types, collapsed](docs/features/features-classtypes-collapsed.jpeg)
 <br>
-![Reviews](docs/features/features-classtypes-open.jpeg)
+![Class Types, open](docs/features/features-classtypes-open.jpeg)
 
 ### Location
 - Location explained with an address and whereabouts in the building itself.
@@ -270,38 +270,38 @@ links to the Homepage, Classes, Studio and Contact pages.
 - Clear photo of the outside of the building.
 - Text stacks above photo on small screens.
 - A way for studio owner to cut down on admin time by offering basic information.
-- User stories covered: 11
+- User stories covered: 1, 5, 13, 15, 17
 
-![Meet the Chef](docs/features/features-location.jpeg)
+![Location](docs/features/features-location.jpeg)
 
 ### Studio Hire 
 - A bulleted list of studio hire prices
 - A clear photo of the studio from the inside
 - On small screens, photo and text stack on top of each other. In this section, the containers reverse order at smal size so the text information comes first.
-- User stories covered: 2, 8
+- User stories covered: 2, 13, 18
 
-![Menu](docs/features/features-hire.jpeg)
+![Studio Hire](docs/features/features-hire.jpeg)
 
 ### Google Map
 - Embed of Google Map to show location of the studio in the City, with closest parking marked.
-- User stories covered: 4
+- User stories covered: 1, 5, 9, 13, 17
 
-![Gallery](docs/features/features-google-map.jpeg)
+![Map](docs/features/features-google-map.jpeg)
 
 ### Enrollment Contact Form
 - A way for the user to enrol in classes
 - A way for studio owner to capture new business 
-- User stories covered: 4
+- User stories covered: 6, 15, 16
 
-![Video](docs/features/features-enrollment-form.jpeg)
+![Contact Form](docs/features/features-enrollment-form.jpeg)
 
 ### Contact Us
 - A way for user to provide feedback by another method
 - Phone, email, google map all linked by opening in new tab
 - A way for the studio owner to help their existing and new customers
-- User stories covered: 9, 15
+- User stories covered: 1, 5, 6, 9, 13, 15, 17
 
-![Contact Form](docs/features/features-contact.jpeg)
+![Contact Us](docs/features/features-contact.jpeg)
 
 
 
@@ -369,6 +369,7 @@ The website was tested on the following devices:
 - Ipad Pro 12.9" (landscape and portrait)
 - Apple Macbook Air 13"
 - Iphone 14 pro (landscape and portrait)
+- Iphone SE (original version, landscape and portrait)
 - Google Pixel 7 (landscape and portrait)
 
 In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
@@ -395,86 +396,110 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/story-story1-c.jpeg">
 </details>
 
-2. As a first time user, I want to know the price for classes
+2. As a first time user, I want to know the prices
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Menu | Navigate to the Classes page | See prices on Classes page | Works as expected |
+| Class Prices | Navigate to the Classes page, scroll down to Class Prices | Find uptodate prices on Classes page | Works as expected |
+| Studio Hire Prices | Navigate to Studio page, scroll down to Studio Hire Section | Find Studio Hire prices | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/story-story2-a.jpeg">
 <img src="docs/user-story-testing/story-story2-b.jpeg">
+<img src="docs/user-story-testing/story-story2-c.jpeg">
 </details>
 
-3. As a first time user, I want to know more about the restaurant
+3. As a first time user, I want to know more about the classes
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| About Us | Navigate to the About page and locate the About Us section | Find description of the restaurant | Works as expected |
-| Customer reviews | Navigate to the About page, scroll down to What our guests say section | Read customer reviews | Works as expected | 
+| Teachers section | Navigate to the About page and scroll down to locate the Teachers section | Find description of the teachers | Works as expected |
+| Classes section | Navigate to the Classes page, scroll down to classes section, click on class type | Read about and see different class types | Works as expected | 
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-3-14.jpg">
+<img src="docs/user-story-testing/strory-story3-a.jpeg">
+<img src="docs/user-story-testing/strory-story3-b.jpeg">
+<img src="docs/user-story-testing/strory-story3-c.jpeg">
 </details>
 
-4. As a first time user, I want to get a feel of what to expect at the restaurant
+4. As a first time user, I want to get a feel for the standard of teaching and the business
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Gallery | Navigate to the Gallery page | Find pictures of the restaurant and food served there | Works as expected |
-| Promo video | Navigate to the GAlelry page and scroll to the promo video | Watch promo video | Works as expected |
+| Hero Image | Navigate to the Home page | Professional Hero image displayed at the top of the screen showing a student | Works as expected |
+| Quote | Navigate to the Home page and scroll to the video | Watch video | Works as expected |
+| Teacher Cards | Navigate to Home page, scroll down to Teachers section | Read teacher info and see their images | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-4.jpg">
+<img src="docs/user-story-testing//story-story4-a.jpeg">
+<img src="docs/user-story-testing//story-story4-b.jpeg">
+<img src="docs/user-story-testing//story-story4-c.jpeg">
 </details>
 
-5. As a returning user, I want to see the Sunday meal offer
+5. As a returning user, I want to see the location
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Meal-deal | On home page scroll down to the Sunday meal deal section | Find the meal-deal for the upcomming Sunday | Works as expected |
+| Map | Navigate to the Studio page, locate the Google Map | See a map showing dance school location | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the dance school, click to open Google map if desired | Works as expected |
+| Address | Navigate to Contact page, scroll down, find the address of the dance school. Click for Google map if desired | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-5.jpg">
+<img src="docs/user-story-testing/story-story1-a.jpeg">
+<img src="docs/user-story-testing/story-story1-b.jpeg">
+<img src="docs/user-story-testing/story-story1-c.jpeg">
 </details>
 
-6. As a returnign user, I want to know the opening times
+6. As a returning user, I want to easily contact the school
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer - opening times section | On any page scroll to the footer | See opening times | Works as expected |
+| Footer - contact details | On any page scroll to the footer | See contact details, clink on links to contact by email / phone / address | Works as expected |
+| Enrollment Contact Form | Navigate to Contact page | Fill in contact form, submit information to send to studio owner | Works as expected |
+| Contact Section | Navigate to Contact page, scroll down to Contact section | See contact details, clink on links to contact by email / phone / address | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-6.jpg">
+<img src="docs/user-story-testing/story-story6-a.jpeg">
+<img src="docs/user-story-testing/story-story6-b.jpeg">
+<img src="docs/user-story-testing/story-story6-c.jpeg">
 </details>
 
-7. As a returning user, I want to find a phone number to call for reservation
+7. As a returning user, I want to find any changes to the prices
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer - contact information section | On any page scroll to the footer | See phone number | Works as expected |
-| Info Box | Navigate to Contact Us page and locate the How to find us section | See phone number | Works as expected |
+| Class Prices | Navigate to the Classes page, scroll down to Class Prices | Find uptodate prices on Classes page | Works as expected |
+| Studio Hire Prices | Navigate to Studio page, scroll down to Studio Hire Section | Find Studio Hire prices | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-7v1-15.jpg">
-<img src="docs/user-story-testing/user-story-7v2-15.jpg">
+<img src="docs/user-story-testing/story-story2-a.jpeg">
+<img src="docs/user-story-testing/story-story2-b.jpeg">
+<img src="docs/user-story-testing/story-story2-c.jpeg">
 </details>
 
-8. As a returning user, I want to see the menu
+8. As a returning user, I want to find the dance school on social media
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Menu | Navigate to the menu page | Read the menu | Works as expected |
+| Footer | Navigate to the bottom of any of the pages | Find social media icons for Facebook, Twitter, Instagram, Youtube | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-8.jpg">
+<img src="docs/user-story-testing/story-story6-a.jpeg">
 </details>
 
-9. As a returning user, I want to leave some comment, suggestion or message to the staff
+9. As the site owner, I want to be able to considreably cut admin time spent giving out basic information that you can now find on the website 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
+| About Us | Navigate to the Home Page, scroll down to the About Us section | Read general overview of the school | Works as expectd |
+| Teacher Cards | Navigate to Home page, scroll down to Teachers section | Read teacher info and see their images | Works as expected |
+| Footer | Navigate to the bottom of any of the pages | Find footer with contact information and social media icons | Works as expected |
+| Class Prices | Navigate to the Classes page, scroll down to Class Prices | Find uptodate prices on Classes page | Works as expected |
+| Classes section | Navigate to the Classes page, scroll down to classes section, click on class type | Read about and see different class types | Works as expected | 
+| Location | Navigate to Contact page, scroll down to Location section | Find the address of the dance school. Click for Google map if desired | Works as expected |
+| Studio Hire Prices | Navigate to Studio page, scroll down to Studio Hire Section | Find Studio Hire prices | Works as expected |
+| Map | Navigate to the Studio page, locate the Google Map | See a map showing dance school location | Works as expected |
+| Contact Section | Navigate to Contact page, scroll down to Contact section | See contact details, clink on links to contact by email / phone / address | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/user-story-9-15.jpg">

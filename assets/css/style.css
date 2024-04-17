@@ -6,10 +6,7 @@ body {
     font-family: "Work-Sans", sans-serif;
 }
 
-
-
-/*---------------------------------------------------------------------------- Nav */
-
+/*---------------------------------------------------------------------------- Navigation */
 
 .navi-title {
     border-right: 1px solid #122e3c;
@@ -36,7 +33,6 @@ body {
     margin-bottom: 0;
 }
 
-
 .navbar-toggler {
     border: none;
 }
@@ -50,17 +46,18 @@ body {
     margin-top: 56px;
 }
 
-
 /*---------------------------------------------------------------------------- Header */
 
 #hero-outer {
-    height: 720px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     background-color: #f3f3f3;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 
 .hero-image {
     display: flex;
@@ -73,16 +70,12 @@ body {
     height: 100%;
     width: 100%;
     margin: 0 auto;
-
-
 }
 
 .container-md {
     margin: 0;
     width: 100%;
 }
-
-
 
 .hero-logo-text p {
     margin-left: 10%;
@@ -113,7 +106,6 @@ body {
     50% {
         transform: rotate(10deg);
     }
-
 }
 
 @media (max-width: 550px) {
@@ -139,13 +131,9 @@ body {
 
 /*---------------------------------------------------------------------------- Main */
 
-
-
-
 .about-us-title,
 .teachers-title {
     margin-top: 30px;
-
 }
 
 .about-us-text {
@@ -166,17 +154,18 @@ body {
     margin-top: 35px;
     margin-bottom: 50px;
 }
+
 .quote-text {
-        background-color: #122e3c;
-        margin: 20px 10px;
-        color: #f3c6ba;
-        line-height: 30px;
-        font-size: 20px;
-        letter-spacing: 1.2px;
+    background-color: #122e3c;
+    margin: 20px 10px;
+    color: #f3c6ba;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
 }
 
 .blockquote-footer {
-    color:#f3c6ba;
+    color: #f3c6ba;
     font-size: 16px;
 }
 
@@ -188,8 +177,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 
 h2 {
     font-family: 'Anton', sans-serif;
@@ -210,7 +197,6 @@ h2 {
 
 .teachers {
     margin-bottom: 15px;
-
 }
 
 .card-body {
@@ -221,9 +207,7 @@ img.card-img-top {
     width: 100%;
 }
 
-
 /*---------------------------------------------------------------------------- Footer */
-
 #footer {
     padding: 0;
     background-color: #122e3c;
@@ -276,7 +260,6 @@ img.card-img-top {
     text-decoration: none;
 }
 
-
 .social-networks li a i {
     width: 32px;
     height: 32px;
@@ -314,15 +297,13 @@ img.card-img-top {
     font-size: 18px;
 }
 
-
 /* ---------------------------------------------------------------------Timetable and classes page*/
-
-
 .prices-title-box {
     margin-top: 30px;
 }
 
-.prices-text, .classes-text {
+.prices-text,
+.classes-text {
     background-color: #122e3c;
     margin-top: 20px;
     margin-bottom: 15px;
@@ -347,7 +328,7 @@ img.card-img-top {
 }
 
 .prices-box {
-    padding:0;
+    padding: 0;
 }
 
 .prices {
@@ -368,11 +349,11 @@ img.card-img-top {
 }
 
 .price-left {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 10%;
-        align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: flex-end;
 }
 
 .price-right {
@@ -384,7 +365,8 @@ img.card-img-top {
     margin-top: 40px;
 }
 
-.classes-box, .prices-box {
+.classes-box,
+.prices-box {
     margin-top: 30px;
 }
 
@@ -400,7 +382,7 @@ img.card-img-top {
 }
 
 .accordion-button {
-    background-color:#f3f3f3;
+    background-color: #f3f3f3;
 }
 
 .accordion-button:not(.collapsed) {
@@ -414,18 +396,13 @@ img.card-img-top {
     line-height: 25px;
 }
 
-
-
 /* ---------------------------------------------------------------------Studio and hire page*/
-
 .studio-text {
     color: #f3f3f3;
     letter-spacing: 1.2px;
     font-size: 16px;
     letter-spacing: 1.2px;
-
 }
-
 
 .studio-text h2 {
     margin-top: 30px;
@@ -466,7 +443,6 @@ img.card-img-top {
 
 .building {
     max-width: 100%;
-    max-height: auto;
 }
 
 .hire-section {
@@ -493,9 +469,7 @@ ul.hire-list {
     padding: 0;
 }
 
-
 /*---------------------------------------------------------------- Enrollment and Contact page---*/
-
 .enrollment label {
     color: #f3c6ba;
     font-size: 18px;
@@ -508,7 +482,7 @@ ul.hire-list {
 }
 
 .form-text {
-    color:#f3f3f3;
+    color: #f3f3f3;
     font-size: 18px;
 }
 
@@ -518,17 +492,14 @@ ul.hire-list {
 
 .contact-image {
     max-width: 100%;
-    max-height: auto;
 }
 
 /*---------------------------------------------------------------- 404 Error page---*/
-
 .error-page {
 
     font-family: "Anton", sans-serif;
     font-size: 3rem;
     color: #122e3c;
-
 }
 
 .error-row {
