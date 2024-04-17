@@ -326,86 +326,84 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 When validating the page as a whole, the validator shows some errors linked to Bootstrap v5.0. When validating just my own custom CSS it passes with no errors found and some warnings associated to using root variables.
-<details><summary>whole page</summary>
-<img src="docs/validation/validation-css-whole-page.jpg">
-</details>
 <details><summary>style.css</summary>
-<img src="docs/validation/validation-css-style.jpg">
+<img src="docs/validation/w3c-css-validation.jpeg">
 </details>
 
 ### Accessibility
-The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors or contrast errors.
+There were a couple of warnings regarding skipped headings, but over the four pages, this was unavoidable and the headings were kept as successive possible within this limitation.
 <details><summary>Home</summary>
-<img src="docs/validation/validation-accessibility-index.jpg">
+<img src="docs/validation/webaim-index.jpeg">
 </details>
-<details><summary>About</summary>
-<img src="docs/validation/validation-accessibility-about.jpg">
+<details><summary>Classes</summary>
+<img src="docs/validation/webaim-classes.jpeg">
 </details>
-<details><summary>Menu</summary>
-<img src="docs/validation/validation-accessibility-menu.jpg">
-</details>
-<details><summary>Gallery</summary>
-<img src="docs/validation/validation-accessibility-gallery.jpg">
+<details><summary>Studio</summary>
+<img src="docs/validation/webaim-studio.jpeg">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/validation-accessibility-contact.jpg">
+<img src="docs/validation/webaim-contact.jpeg">
 </details>
 
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
+A few issues were flagged regarding the skipped headings that I feel is unavoidable over the four pages.
+When viewed in a normal Chrome tab, lighthouse flagged external cookies regarding the Google Map. These are out ofmy control, and when Lighthouse is performed from an incognito window these issues are no longer present
 
 <details><summary>Home</summary>
-<img src="docs/validation/lighthouse-performance-index.jpg">
+<img src="docs/validation/lighthouse-index.jpeg">
 </details>
-<details><summary>About</summary>
-<img src="docs/validation/lighthouse-performance-about.jpg">
+<details><summary>Classes</summary>
+<img src="docs/validation/lighthouse-classes.jpeg">
 </details>
-<details><summary>Menu</summary>
-<img src="docs/validation/lighthouse-performance-menu.jpg">
-</details>
-<details><summary>Gallery</summary>
-<img src="docs/validation/lighthouse-performance-gallery.jpg">
+<details><summary>Studio</summary>
+<img src="docs/validation/lighthouse-studio.jpeg">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/lighthouse-performance-contact.jpg">
+<img src="docs/validation/lighthouse-contact.jpeg">
 </details>
 
 ### Performing tests on various devices 
 The website was tested on the following devices:
-- Lenovo Yoga 2 Pro (both in pc and tablet mode)
-- Honor 20 pro
-- Xiaomi Redmi Note 7
+- Ipad Pro 12.9" (landscape and portrait)
+- Apple Macbook Air 13"
+- Iphone 14 pro (landscape and portrait)
+- Google Pixel 7 (landscape and portrait)
 
 In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
 
 ### Browser compatability
 The website was tested on the following browsers:
-- Google Chrome
-- Mozilla Firefox
-- Microsoft Egde
+- Chrome
+- Safari
+- Firefox
 
 ### Testing user stories
 
-1. As a first time user, I want to know where the restaurant is lokated
+1. As a first time user, I want to know where the dance school is located
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
+| Map | Navigate to the Studio page, locate the Google Map | See a map showing dance school location | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the dance school, click to open Google map if desired | Works as expected |
+| Address | Navigate to Contact page, scroll down, find the address of the dance school. Click for Google map if desired | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
-<img src="docs/user-story-testing/user-story-1v2.jpg">
+<img src="docs/user-story-testing/story-story1-a.jpeg">
+<img src="docs/user-story-testing/story-story1-b.jpeg">
+<img src="docs/user-story-testing/story-story1-c.jpeg">
 </details>
 
-2. As a first time user, I want to know the price range
+2. As a first time user, I want to know the price for classes
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Menu | Navigate to the Menu page | See prices on menu page | Works as expected |
+| Menu | Navigate to the Classes page | See prices on Classes page | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-2.jpg">
+<img src="docs/user-story-testing/story-story2-a.jpeg">
+<img src="docs/user-story-testing/story-story2-b.jpeg">
 </details>
 
 3. As a first time user, I want to know more about the restaurant
