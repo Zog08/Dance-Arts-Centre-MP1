@@ -588,9 +588,10 @@ The website was tested on the following browsers:
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| Home page link stays highlighted when visiting another page | Change active atribute to the correct page |
-| The user can submit a contact form input without a message | Add required attribute to message input field |
-| Navbar divides into two rows on xs screen size | Add a media query to remove the right margin of the logo in the navbar on xs screen |
+| Doesnt navigate to Contact section when clicking on Contact link in navbar | corrected the spelling of the id in html |
+| Navbar divides into two rows on xs screen size | made a very slight adjustment to the font size |
+| The user couldn't submit the form when inputting a numerical age | corrected field input to number, instead of email |
+
 | Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line |
 | When viewed on tablets, the contact page has whitespace after the footer | Set min-height for body to 100vh |
 
