@@ -240,87 +240,88 @@ links to the Homepage, Classes, Studio and Contact pages.
 ![About Us](docs/features/features-teacher-cards.jpeg)
 
 ### Footer
-- Featured on all five pages
-- Consists of three seperate sections: contact information, opening times, and social media links
+- Featured on all four pages
+- Consists of three seperate sections: text logo that links back to home page, social media links and contact info that links to a new tab with Google map / email / phone call.
 - User stories covered: 1, 6, 7, 10, 15
 
-![Footer](docs/features/feature-footer.jpg)
+![Footer](docs/features/features-footer.jpeg)
 
-### About Us
-- Gives a description of the restaurant and its facilities with a image of the front of the building on the right side
+### Prices
+- Consists of heading, short text information and prices available in an easy to read format in a responsive table.
 - User stories covered: 3, 14
 
-![About Us](docs/features/feature-about-us.jpg)
+![About Us](docs/features/features-prices.jpeg)
 
-### Customer reviews
-- Features a few reviews left by the restaurants customers on social media
+### Class Types
+- An accordion style drop down menu, each section contains an explanation of the dance genre along with a photo.
+- Responsive design. Basis taken from Bootstrap, responsive images added through my own trial and error.
+- Headingsin the accordion change to pale pink background when a section is opened.
 - User stories covered: 3
 
-![Reviews](docs/features/feature-reviews.jpg)
+![Reviews](docs/features/features-classtypes-collapsed.jpeg)
+<br>
+![Reviews](docs/features/features-classtypes-open.jpeg)
 
-### Meet the Chef
-- Features a short bio of the chef with an image of the chef on the left side
+### Location
+- Location explained with an address and whereabouts in the building itself.
+- Address is a link to Google map directions, opens in a new tab.
+- Phone number is linked to call the number on phone.
+- Email is linked to open email app and send communication.
+- Clear photo of the outside of the building.
+- Text stacks above photo on small screens.
+- A way for studio owner to cut down on admin time by offering basic information.
 - User stories covered: 11
 
-![Meet the Chef](docs/features/feature-meet-the-chef.jpg)
+![Meet the Chef](docs/features/features-location.jpeg)
 
-### Menu 
-- Gives an overview of the menu in five sections: starters, main meals, kids meals, dessers, and wine.
-- Each section of the menu is accompanied with an image of one of the items form the menu
-- Features pricing
+### Studio Hire 
+- A bulleted list of studio hire prices
+- A clear photo of the studio from the inside
+- On small screens, photo and text stack on top of each other. In this section, the containers reverse order at smal size so the text information comes first.
 - User stories covered: 2, 8
 
-![Menu](docs/features/feature-menu.jpg)
+![Menu](docs/features/features-hire.jpeg)
 
-### Image Gallery
-- Imagery of the restaurant arranged in a grid
+### Google Map
+- Embed of Google Map to show location of the studio in the City, with closest parking marked.
 - User stories covered: 4
 
-![Gallery](docs/features/feature-gallery.jpg)
+![Gallery](docs/features/features-google-map.jpeg)
 
-### Promo Video
-- A YouTube video to promote the restaurant 
+### Enrollment Contact Form
+- A way for the user to enrol in classes
+- A way for studio owner to capture new business 
 - User stories covered: 4
 
-![Video](docs/features/feature-video.jpg)
+![Video](docs/features/features-enrollment-form.jpeg)
 
-### Contact Form
-- A way for user to provide feedback
+### Contact Us
+- A way for user to provide feedback by another method
+- Phone, email, google map all linked by opening in new tab
+- A way for the studio owner to help their existing and new customers
 - User stories covered: 9, 15
 
-![Contact Form](docs/features/feature-contact-form.jpg)
+![Contact Form](docs/features/features-contact.jpeg)
 
-### Map
-- Shows the restaurant location on an embeded Google Map
-- User stories covered: 1, 12
 
-![Map](docs/features/feature-map.jpg)
-
-### Info Box
-- Provides the user with information about the restaurant including addres, phone number, email, and the name of the owner
-- User stories covered: 7, 15
-
-![Info Box](docs/features/feature-info-box.jpg)
 
 ## Validation
 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
 <details><summary>Home</summary>
-<img src="docs/validation/validation-html-index.jpg">
+<img src="docs/validation/w3c-html-index.jpeg">
 </details>
-<details><summary>About</summary>
-<img src="docs/validation/validation-html-about.jpg">
+<details><summary>Classes</summary>
+<img src="docs/validation/w3c-html-classes.jpeg">
 </details>
-<details><summary>Menu</summary>
-<img src="docs/validation/validation-html-menu.jpg">
+<details><summary>Studio</summary>
+<img src="docs/validation/w3c-html-studio.jpeg">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/validation-html-gallery.jpg">
+<img src="docs/validation/w3c-html-contact.jpeg">
 </details>
-<details><summary>Home</summary>
-<img src="docs/validation/validation-html-contact.jpg">
-</details>
+
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
