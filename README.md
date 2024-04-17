@@ -502,17 +502,31 @@ The website was tested on the following browsers:
 | Contact Section | Navigate to Contact page, scroll down to Contact section | See contact details, clink on links to contact by email / phone / address | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-9-15.jpg">
+<img src="docs/user-story-testing/story-story9-a.jpeg">
+<img src="docs/user-story-testing//story-story4-c.jpeg">
+<img src="docs/user-story-testing/story-story6-a.jpeg">
+<img src="docs/user-story-testing/story-story2-b.jpeg">
+<img src="docs/user-story-testing/strory-story3-b.jpeg">
+<img src="docs/user-story-testing/strory-story3-c.jpeg">
+<img src="docs/user-story-testing/strory-story1-b.jpeg">
+<img src="docs/user-story-testing/strory-story2-c.jpeg">
+<img src="docs/user-story-testing/strory-story1-c.jpeg">
+<img src="docs/user-story-testing/strory-story6-c.jpeg">
 </details>
 
-10. As a returning user, I want to find the restaurant on social media
+10. As the site owner, I want users to get to know the dance school and trust us with their children and their training
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer - social media section | On any page scroll to the bottom | Click on social media links | Works as expected | 
+| Teacher Cards | Navigate to Home page, scroll down to Teachers section | Read teacher info and see their images | Works as expected |
+| Video | Navigate to the Home page and scroll to the video | Watch video of an actual class | Works as expected |
+| Classes section | Navigate to the Classes page, scroll down to classes section, click on class type | Read about and see different class types | Works as expected | 
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-10.jpg">
+<img src="docs/user-story-testing//story-story4-c.jpeg">
+<img src="docs/user-story-testing//story-story4-b.jpeg">
+<img src="docs/user-story-testing//story-story3-b.jpeg">
+<img src="docs/user-story-testing//story-story3-c.jpeg">
 </details>
 
 11. As a returning user, I want to know who is preparing the food
