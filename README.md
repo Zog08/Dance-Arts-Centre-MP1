@@ -613,6 +613,17 @@ Images not referenced below are owned by the developer.
 
 ### Media
 In order of apearance:
+- [hero-image-landscape](assets/images/hero-image.webp): Photo by <a href="https://pixabay.com/users/sobima-4218005/">Sobima</a> on <a href="https://pixabay.com/photos/ballet-ballerina-dance-girl-5352240">Pixabay</a>
+- [hero-image-portrait](assets/images/hero-portrait.webp): Photo by <a href="https://pixabay.com/users/sobima-4218005/">Sobima</a> on <a href="https://pixabay.com/photos/ballet-ballerina-dance-girl-5352241/">Pixabay</a>
+- [ballet-class-video](assets/videos/ballet-class-video.mp4): Video by <a href="https://www.pexels.com/@pressmaster/">Pressmaster</a> on <a href="https://www.pexels.com/video/a-ballet-teacher-teaching-young-students-ballet-moves-and-forms-3120347/">Pexels</a>
+- [teacher1](assets/images/teacher1.webp): Photo by <a href="https://pixabay.com/users/anagomes2-3976914/">anagomes2</a> on <a href="https://pixabay.com/photos/black-woman-woman-brasileira-female-1898482/">Pixabay</a>
+
+
+- [teacher2](assets/images/teacher2.webp): Photo by <a href="https://pixabay.com/users/anagomes2-3976914/">anagomes2</a> on <a href="https://pixabay.com/photos/black-woman-woman-brasileira-female-1898482/">Pixabay</a>
+
+
+
+
 - [carousel-1](assets/images/carousel-1.jpg): Photo by <a href="https://unsplash.com/@heathergill?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Heather Gill</a> on <a href="https://unsplash.com/s/photos/pots-and-pans?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - [news](assets/images/news.jpg): Photo by <a href="https://unsplash.com/@mareksminder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Claudia Altamimi</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - [meal-deal](assets/images/meal-deal.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
