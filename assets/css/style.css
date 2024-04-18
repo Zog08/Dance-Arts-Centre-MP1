@@ -67,6 +67,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+    background-position-y: 30%;
     height: 100%;
     width: 100%;
     margin: 0 auto;

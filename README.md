@@ -529,58 +529,52 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing//story-story3-c.jpeg">
 </details>
 
-11. As a returning user, I want to know who is preparing the food
+11. As a site owner, I want the users to be able to contact us 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Meet the Chef | Navigate to the About page and scroll down to Meet the Chef section | Find brief bio of the Chef | Works as expected |
+| Footer - contact details | On any page scroll to the footer | See contact details, clink on links to contact by email / phone / address | Works as expected |
+| Enrollment Contact Form | Navigate to Contact page | Fill in contact form, submit information to send to studio owner | Works as expected |
+| Contact Section | Navigate to Contact page, scroll down to Contact section | See contact details, clink on links to contact by email / phone / address | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-11.jpg">
+<img src="docs/user-story-testing/story-story6-a.jpeg">
+<img src="docs/user-story-testing/story-story6-b.jpeg">
+<img src="docs/user-story-testing/story-story6-c.jpeg">
 </details>
 
-12. As a returning user, I want to get directions to the restaurant
+12. As the site owner, I want to be able to be able to capture new business effectively with the enrol form to help store data safely
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page, locate the map and click on directions link | See directions to the restaurant on Goole Maps | Works as expected |
+| Enrollment Contact Form | Navigate to Contact page | Fill in contact form, submit information to send to studio owner | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-1v1-12.jpg">
+<img src="docs/user-story-testing/story-story6-b.jpeg">
 </details>
 
-13. As the site owner, I want users to find news about upcoming events or changes in opening times
+13. As the site owner, I want users to be able to find our location
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| News | Scroll down on home page and locate news section | Find latest news | Works as expected |
+| Map | Navigate to the Studio page, locate the Google Map | See a map showing dance school location | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the dance school, click to open Google map if desired | Works as expected |
+| Address | Navigate to Contact page, scroll down, find the address of the dance school. Click for Google map if desired | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-13.jpg">
+<img src="docs/user-story-testing/story-story1-a.jpeg">
+<img src="docs/user-story-testing/story-story1-b.jpeg">
+<img src="docs/user-story-testing/story-story1-c.jpeg">
 </details>
 
-14. As the site owner, I want users to get to know the restaurant 
+14. As the site owner, I want the users to be able to hire our studio space
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| About Us | Navigate to About page and locate About Us section | See relevant information about the restaurant | Works as expected |
+| Studio Hire Prices | Navigate to Studio page, scroll down to Studio Hire Section | Find Studio Hire prices | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-3-14.jpg">
-</details>
-
-15. As the site owner, I want the users to be able to contact us
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
-| Info Box | Navigate to Contact Us page and locate the How to find us section | Find the phone number | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer | Find the phone number | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story-7v1-15.jpg">
-<img src="docs/user-story-testing/user-story-7v2-15.jpg">
-<img src="docs/user-story-testing/user-story-9-15.jpg">
+<img src="docs/user-story-testing/story-story2-c.jpeg">
 </details>
 
 
@@ -591,18 +585,17 @@ The website was tested on the following browsers:
 | Doesnt navigate to Contact section when clicking on Contact link in navbar | corrected the spelling of the id in html |
 | Navbar divides into two rows on xs screen size | made a very slight adjustment to the font size |
 | The user couldn't submit the form when inputting a numerical age | corrected field input to number, instead of email |
+| Background image cut off on wider monitors | Corrected the positioning to background-position-y as align-contents only affects the contents; the text or buttons |
 
-| Email overflows on xs screen size | Add a media query that makes the divs spread to 100% width on xs sreens to froce the content onto a seperate line |
-| When viewed on tablets, the contact page has whitespace after the footer | Set min-height for body to 100vh |
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
 2. On the left hand menu select Pages
 3. For the source select Branch: master
-4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://4n4ru.github.io/CI_MS1_BodelschwingherHof/"
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://zog08.github.io/Dance-Arts-Centre-MP1/"
 
-You can for fork the repository by following these steps:
+You can fork the repository by following these steps:
 1. Go to the GitHub repository
 2. Click on Fork button in upper right hand corner
 
@@ -613,7 +606,7 @@ You can clone the repository by following these steps:
 4. Open Git Bash
 5. Change the current working directory to the one where you want the cloned directory
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
-7.Press Enter to create your local clone.
+7. Press Enter to create your local clone.
 
 ## Credits
 Images not referenced below are owned by the developer.
