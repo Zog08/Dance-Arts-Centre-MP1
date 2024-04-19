@@ -617,15 +617,21 @@ In order of apearance:
 - [hero-image-portrait](assets/images/hero-portrait.webp): Photo by <a href="https://pixabay.com/users/sobima-4218005/">Sobima</a> on <a href="https://pixabay.com/photos/ballet-ballerina-dance-girl-5352241/">Pixabay</a>
 - [ballet-class-video](assets/videos/ballet-class-video.mp4): Video by <a href="https://www.pexels.com/@pressmaster/">Pressmaster</a> on <a href="https://www.pexels.com/video/a-ballet-teacher-teaching-young-students-ballet-moves-and-forms-3120347/">Pexels</a>
 - [teacher1](assets/images/teacher1.webp): Photo by <a href="https://pixabay.com/users/anagomes2-3976914/">anagomes2</a> on <a href="https://pixabay.com/photos/black-woman-woman-brasileira-female-1898482/">Pixabay</a>
+- [teacher2](assets/images/teacher2.webp): Photo by <a href="https://pixabay.com/users/moonrid3r-8164253/">MoonRid3r</a> on <a href="https://pixabay.com/photos/portrait-adult-woman-3204843/">Pixabay</a>
+- [teacher3](assets/images/teacher3.webp): Photo by <a href="https://pixabay.com/users/streetwindy-11524310/">Streetwindy</a> on <a href="https://pixabay.com/photos/portrait-man-boy-masculine-4444764/">Pixabay</a>
+- [ballet](assets/images/ballet.webp): Photo by <a href="https://pixabay.com/users/sobima-4218005/">Sobima</a> on <a href="https://pixabay.com/photos/ballet-ballerina-dance-girl-5352226/">Pixabay</a>
+- [acroclass](assets/images/acroclass.webp): Photo by <a href="https://www.freepik.com/">Freepik</a> on <a href="https://www.freepik.com/free-photo/young-woman-assisting-ballerina-girl-dance-class_2690245.htm">Freepik</a>
+- [babyballet](assets/images/babyballet.webp): Photo by <a href="https://www.freepik.com/author/prostooleh">Prostooleh</a> on <a href="https://www.freepik.com/free-photo/cute-little-ballerinas-pink-ballet-costume-children-pointe-shoes-is-dancing-room-kid-dance-class_11155226.htm#fromView=image_search_similar&page=2&position=5&uuid=1d453208-8f90-49c0-8100-fb6f247b44a5">Freepik</a>
+- [adultballet](assets/images/adultballet.webp): Photo by <a href="https://www.freepik.com/author/master1305">Master1305</a> on <a href="https://www.freepik.com/free-photo/seven-ballerinas-ballet-bar_7540238.htm">Freepik</a>
+- [building](assets/images/building.webp): Photo by <a href="https://commons.wikimedia.org/wiki/User:Bs0u10e01">Bs0u10e01</a> on <a href="https://en.m.wikipedia.org/wiki/File:St_Marys_Lichfield.jpg">Wikipedia</a>
+- [studio-hire](assets/images/studio-hire.webp): Photo by <a href="https://unsplash.com/@tommykwak">Tommy Kwak</a> on <a href="https://unsplash.com/photos/white-ceiling-with-light-fixture-Ta3OhYMKCvA">Unsplash</a>
+- [class](assets/images/class.webp): Photo by <a href="https://pixabay.com/users/sobima-4218005/">Sobima</a> on <a href="https://pixabay.com/photos/ballet-lesson-ballerina-girls-3362687/">Pixabay</a>
 
 
-- [teacher2](assets/images/teacher2.webp): Photo by <a href="https://pixabay.com/users/anagomes2-3976914/">anagomes2</a> on <a href="https://pixabay.com/photos/black-woman-woman-brasileira-female-1898482/">Pixabay</a>
+
+DO 404 IMAGE
 
 
-
-
-- [carousel-1](assets/images/carousel-1.jpg): Photo by <a href="https://unsplash.com/@heathergill?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Heather Gill</a> on <a href="https://unsplash.com/s/photos/pots-and-pans?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-- [news](assets/images/news.jpg): Photo by <a href="https://unsplash.com/@mareksminder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Claudia Altamimi</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - [meal-deal](assets/images/meal-deal.jpg): Photo by <a href="https://unsplash.com/@itssammoqadam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moqadam</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
 - [chef](assets/images/chef.jpg): <a href='https://www.freepik.com/photos/food'>Food photo created by freepik - www.freepik.com</a>
 - [menu background](assets/images/menu-background.jpg): <a href="https://www.freepik.com/vectors/background">Background vector created by pikisuperstar - www.freepik.com</a>
