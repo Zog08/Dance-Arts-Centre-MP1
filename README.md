@@ -130,11 +130,12 @@ Both fonts were imported from Google Fonts
 
 ### Structure
 The structure of the page is built in a recognisable and intuitive format. Upon arriving to the website the user sees a familiar type of navigation bar with the dance school name logo on the left side and the navigation links to the right. 
-The website consists of four separate pages: 
+The website consists of four separate pages (plus 404 error page): 
 - A homepage, with About Us, a customer quote with embedded video, About Teachers section.
 - A Classes page, with prices and class types explained.
 - A Studio page, with information on location, hire prices and an embedded Google map.
 - A Contact page, with an enrollment form and contact details.
+- A 404 error page
 
 ### Wireframes
 
