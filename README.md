@@ -579,6 +579,7 @@ The website was tested on the following browsers:
 | Navbar divides into two rows on xs screen size | made a very slight adjustment to the font size |
 | The user couldn't submit the form when inputting a numerical age | corrected field input to number, instead of email |
 | Background image cut off on wider monitors | Corrected the positioning to background-position-y as align-contents only affects the contents; the text or buttons |
+|Contact form, telephone field allowed text input, even with type=tel selected | Added pattern attribute to ensure only 11 digit phone numbers can be submitted |
 
 
 ## Future Features 
