@@ -35,7 +35,8 @@ Dance Arts Centre (DAC) is a site that hope to act as a positive reflection of a
     5. [Device testing](#performing-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
-8. [Bugs](#Bugs)
+7. [Bugs](#Bugs)
+8. [Future Features](#future-features)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
@@ -189,7 +190,7 @@ links to the Homepage, Classes, Studio and Contact pages.
 - Introduces the user to the dance school with a large cover image. Landscape on medium and above screens. Different portrait oriented image for small screens.
 - Overlayed on the hero image is a text logo of Dance Arts Centre and a call to action button to enrol now.
 - The hero images convey a professional and modern dance school and tie in with the colour branding. I enjoy how the girl is looking at the enrol button, drawing you eye to the action. 
-- User stories covered: 4, 14
+- User stories covered: 4
 
 ![Hero-image](docs/features/features-hero-image.jpeg)
 
@@ -197,19 +198,19 @@ links to the Homepage, Classes, Studio and Contact pages.
 - A media query makes the button wiggle when the home page is loaded, drawing youo eye to the button.
 - Links directly to the enrollment form on the Contact page
 - Both image sizes flow visually to the call to action button.
-- User stories covered: 16
+- User stories covered: 11
 
 ![Enrol-button](docs/features/features-enrol-button.jpeg)
 
 ### About Us
 - Allowes users to see an introduction to the school and an overview of the services they provide
-- User stories covered: 4, 13, 14
+- User stories covered: 4, 9
 
 ![About-us](docs/features/features-about-us.jpeg)
 
 ### Quote
 - Quote from a parent at the dance school. This helps gain new parents trust.
-- User stories covered: 4, 14
+- User stories covered: 4
 
 ![Quote](docs/features/features-quote.jpeg)
 
@@ -217,7 +218,7 @@ links to the Homepage, Classes, Studio and Contact pages.
 - A short video, with no audio, autoplays when browser is loaded. 
 - It loops to play again once finished.
 - A video of a real class at the dance school, which gives an insight into classes.
-- User stories covered: 3, 14
+- User stories covered: 3, 10
 
 ![About Us](docs/features/features-video-still.jpeg)
 
@@ -225,20 +226,20 @@ links to the Homepage, Classes, Studio and Contact pages.
 - Gives a description of the teaching staff, along with an image
 - Helps gain the trust of new parents
 - Presents a standard of professionalism and shows the staff qualifications etc.
-- User stories covered: 4, 14
+- User stories covered: 4, 9, 10
 
 ![About Us](docs/features/features-teacher-cards.jpeg)
 
 ### Footer
 - Featured on all four pages
 - Consists of three seperate sections: text logo that links back to home page, social media links and contact info that links to a new tab with Google map / email / phone call.
-- User stories covered: 1, 5, 6, 8, 13, 15, 17
+- User stories covered: 1, 5, 6, 8, 9, 11, 13
 
 ![Footer](docs/features/features-footer.jpeg)
 
 ### Prices
 - Consists of heading, short text information and prices available in an easy to read format in a responsive table.
-- User stories covered: 2, 7, 13
+- User stories covered: 2, 7, 9
 
 ![Prices](docs/features/features-prices.jpeg)
 
@@ -246,7 +247,7 @@ links to the Homepage, Classes, Studio and Contact pages.
 - An accordion style drop down menu, each section contains an explanation of the dance genre along with a photo.
 - Responsive design. Basis taken from Bootstrap, responsive images added through my own trial and error.
 - Headingsin the accordion change to pale pink background when a section is opened.
-- User stories covered: 3, 13, 14
+- User stories covered: 3, 9, 10
 
 ![Class Types, collapsed](docs/features/features-classtypes-collapsed.jpeg)
 <br>
@@ -260,7 +261,7 @@ links to the Homepage, Classes, Studio and Contact pages.
 - Clear photo of the outside of the building.
 - Text stacks above photo on small screens.
 - A way for studio owner to cut down on admin time by offering basic information.
-- User stories covered: 1, 5, 13, 15, 17
+- User stories covered: 1, 5, 9, 11, 13
 
 ![Location](docs/features/features-location.jpeg)
 
@@ -268,20 +269,20 @@ links to the Homepage, Classes, Studio and Contact pages.
 - A bulleted list of studio hire prices
 - A clear photo of the studio from the inside
 - On small screens, photo and text stack on top of each other. In this section, the containers reverse order at smal size so the text information comes first.
-- User stories covered: 2, 13, 18
+- User stories covered: 2, 9, 4
 
 ![Studio Hire](docs/features/features-hire.jpeg)
 
 ### Google Map
 - Embed of Google Map to show location of the studio in the City, with closest parking marked.
-- User stories covered: 1, 5, 9, 13, 17
+- User stories covered: 1, 5, 9, 13
 
 ![Map](docs/features/features-google-map.jpeg)
 
 ### Enrollment Contact Form
 - A way for the user to enrol in classes
 - A way for studio owner to capture new business 
-- User stories covered: 6, 15, 16
+- User stories covered: 6, 11, 12
 
 ![Contact Form](docs/features/features-enrollment-form.jpeg)
 
@@ -289,7 +290,7 @@ links to the Homepage, Classes, Studio and Contact pages.
 - A way for user to provide feedback by another method
 - Phone, email, google map all linked by opening in new tab
 - A way for the studio owner to help their existing and new customers
-- User stories covered: 1, 5, 6, 9, 13, 15, 17
+- User stories covered: 1, 5, 6, 9, 11, 13
 
 ![Contact Us](docs/features/features-contact.jpeg)
 
@@ -578,6 +579,12 @@ The website was tested on the following browsers:
 | The user couldn't submit the form when inputting a numerical age | corrected field input to number, instead of email |
 | Background image cut off on wider monitors | Corrected the positioning to background-position-y as align-contents only affects the contents; the text or buttons |
 
+
+## Future Features 
+In the future, if more time allowed and my skills are furthered, i would like to add the following features:
+- Members only area. Parents could sign in and see news, timetable and photos of their children that may not be appropriate to share with the general public
+- Take payment via the website for classes
+- A shop to sell uniform
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
