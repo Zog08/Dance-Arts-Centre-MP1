@@ -35,6 +35,7 @@ Dance Arts Centre (DAC) is a site that hope to act as a positive reflection of a
     5. [Device testing](#performing-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
+    8. [Peer Review and Testing](#peer-review-and-testing)
 7. [Bugs](#Bugs)
 8. [Future Features](#future-features)
 9. [Deployment](#deployment)
@@ -569,6 +570,17 @@ The website was tested on the following browsers:
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/story-story2-c.jpeg">
 </details>
+
+### Peer Review and Testing
+
+I am lucky enough to be surrounded by helpful humans in the real world and also online, whether that is my current cohort at Runshaw College / Code Institute or within the Slack community. I have asked friends and family to test my project along the way to hep find bugs, test device compatibility etc.
+
+| **Tester** | **Testing Process and Feedback Given** | **Changes Implemented, Explanations Given etc**|
+|------------|----------------------------------------|------------------------------------------------|
+| My Husband | Extensive testing throughout the build from an outsider point of view. Tested on his Iphone, laptop and desktop at his place of work.| He managed to find page layout discrepancies on his multiple devices. Chief Spell Checker. Checked links and buttons, menu and layout for ease of use. | Spelling and grammar corrected as page was built. Buttons correctly linked where needed. Sometimes his lack of knowledge of the dance world helped me to improve explanations to a lay-person. I made presumptions that a new user might already know some information, therefore extra information added like explanation of dance classes.|
+| My Dance Teacher friends | The principal at my place of work tested from a site owner perspective. She was able to tell me what was useful to her as a dance school owner| I added in a price list at design level. This is something that aids here greatly with her own website. Her suggestions helped my User Stories take shape. |
+| College Cohort | Tested on their devices. Gave feedback on look and design. Clicked all available links. Gave useful help if I hit a stumbling block | Despite having some great tips and discussions around my Bootstrapped sticky navbar, we were unable to come up with a solution to the problem of the navbar only sticking to the top of the first container on my homepage. Any suggestions i tried resulted in the page not loading correctly. I decided that in balance, leaving it as it is shouldnt cause too many issues on modern browsers as the page isnt too lengthy and we can jump back to the top on mobile by tapping the top of the screen.|
+| Slack Community | Entered the page for Peer Reviewing on the Slack channel multiple times. I had some really positive feedback on design, colours chosen, the photos etc. A couple of missed links were picked up. It was suggested to add a Google Map across the screen for ease of finding the location. | My project was well underway and close to finish when i entered the site for peer review, so by this point the bugs picked up were minimal, the navbar logo should link back to the home page, but only on 'Classes' page this wasnt set up correctly. Google Map embed added. |
 
 
 ## Bugs
